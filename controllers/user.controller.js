@@ -1,32 +1,46 @@
-let User = require('/models/user.model');
+//Author: Wesley Gonçalves Anibal
+var User = require('../models/user.model');
 
-const userController = function () {
 
-    const postUser = function(req, res){
-        new User(req.body);
-    };
-
-    const getUser = function (req, res) {
-        res.json("Get de user.js");
-    };
-
-    const deleteUser =  function (req, res) {
-        res.json("delete de user.js")
-    };
-
-    /**
-     * estou usando ES6, para me ajudar a ocultar a informação e economizar memória,
-     * sem precisar criar as mesmas funções várias vezes, somente uma vez e ela sendo usada pelos
-     * objetos criados. ob1.__proto__ === ob2.__proto__ vai ser igual a true, economizando memória.
-     */
-    const saida = function () {
-        saida.__proto__ = proto;
-        return saida;
-    };
-
-    var proto = {postUser, getUser, deleteUser};
-
-    return {saida};
+exports.postUser = async function (req, res) {
+    //req é o que recebe
+    //res é a resposta que daremos
+    let user = new User(req.body);//criando um novo user;
+    user.save((err, us)=>{//salvando no BD
+        if(err){//caso dê erro
+            return res.status(400).json({message:"Falha na operacao", status:400});//retornando uma msg de erro
+        }else{//caso dê certo
+            return res.status(201).json({message:"Aluno adicionado com sucesso", status:201, data: {
+                    name: us.name,
+                }
+            });//retornado o objeto com alguns atributos só
+        }
+    })
 };
 
-module.exports = userController().saida;// importo o objeto, ao estilo python.
+
+exports.getUser = function (req, res) {
+    User.findById(req.params.id, (err, user)=>{//pesquisando o user no BD
+        if(err){
+            res.status(400).json({message:"Falha na operação", status:400});
+        }else{
+            if(user == null ){
+                res.status(404).json({message:" user não encontrado", status: 404});
+            }else{
+                    res.status(200).json({message:"User encontrado",status:201,data:user});
+            }
+        }
+
+    })
+};
+
+exports.getAllUsers = function (req, res) {
+    User.find({}, (err, users)=>{
+        if(err){
+            res.status(400).json({message:"Falha na operação", status:400});
+        }else{
+            res.status(200).json({message:"users encontrados com sucesso",status:200,data:users});
+        }
+    })
+};
+

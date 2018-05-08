@@ -10,6 +10,6 @@ router.post('/', function (req, res) {
     res.json("Post de index.js")
 })
 
-router.use('/user', require('./user.js')) //levando a outra rota /user
+router.use('/user', require('../models/user.model')) //levando a outra rota /user
 
 module.exports = router; //deixando o router publico, para app.js ter acesso a ele
