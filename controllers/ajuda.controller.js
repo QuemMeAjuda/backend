@@ -8,10 +8,7 @@ exports.postAjuda = async function (req, res) {
         if(err){//caso dê erro
             return res.status(400).json({message:"Falha na operacao", status:400});//retornando uma msg de erro
         }else{//caso dê certo
-            return res.status(201).json({message:"Aluno adicionado com sucesso", status:201, data: {
-                    name: us.name,
-                }
-            });//retornado o objeto com alguns atributos só
+            return res.status(201).json({message:"Ajuda cadastrada com sucesso", status:201, data: ajuda});
         }
     })
 
