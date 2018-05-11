@@ -1,6 +1,5 @@
-
+var Mongoose = require('mongoose');
 var userSchema = new Mongoose.Schema({
-    id: String,
     name: String,
     university: String
 });
