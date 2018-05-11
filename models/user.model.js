@@ -1,9 +1,16 @@
 var Mongoose = require('mongoose');
 var userSchema = new Mongoose.Schema({
-    name: String,
-    university: String
+    name:{
+        type:String,
+        default: ''
+    },
+    university:{
+        type:String,
+        default:''
+    }
 });
 
-var User = Mongoose.model('user', userSchema);
+var User = Mongoose.model('User', userSchema);
+module.exports = User;
 
 
