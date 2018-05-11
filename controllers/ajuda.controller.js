@@ -21,7 +21,16 @@ exports.postAjuda = async function (req, res) {
             alunoAjuda.save((err, us)=>{});
         }
     });
+};
 
+exports.getAjuda = function(req,res) {
+    Ajuda.findById(req.params.id,(err,us)=>{
+        if(err){
+            return res.status(400).json({message:"Ajuda não encontrada", status:400});
+        }else{
+            return res.status(200).json({message:"Ajuda encontrada com sucesso", status:200, data: us});
+        }
+    })
 };
 
 
