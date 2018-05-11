@@ -4,6 +4,6 @@ const ajudaController = require('../controllers/ajuda.controller');
 
 
 router.post('/postAjuda', ajudaController.postAjuda);
-router.get('/getAjuda/:id' , ajudaController.getAjuda);
+router.get('/getAjudas/:id' , ajudaController.getAjuda);
 
 module.exports = router;

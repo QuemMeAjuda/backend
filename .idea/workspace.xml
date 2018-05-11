@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ee51dca-425e-4b29-933d-27e7f546fce9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/controllers/ajuda.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/ajuda.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/user.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/ajuda.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/ajuda.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/user.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/user.route.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -71,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajuda.route.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ajuda.route.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/ajuda.route.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="90">
+              <caret line="6" column="56" lean-forward="true" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -83,8 +84,8 @@
       <file leaf-file-name="user.route.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/user.route.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="30" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="90">
+              <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -98,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.controller.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="user.controller.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/user.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4">
-              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="483">
+              <caret line="44" column="2" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -125,15 +126,15 @@
         <option value="$PROJECT_DIR$/config/dev.json" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/bin/www" />
-        <option value="$PROJECT_DIR$/routes/user.route.js" />
-        <option value="$PROJECT_DIR$/controllers/user.controller.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/models/ajuda.model.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/models/AlunoAJuda.js" />
         <option value="$PROJECT_DIR$/models/user.model.js" />
         <option value="$PROJECT_DIR$/controllers/ajuda.controller.js" />
+        <option value="$PROJECT_DIR$/routes/user.route.js" />
         <option value="$PROJECT_DIR$/routes/ajuda.route.js" />
+        <option value="$PROJECT_DIR$/controllers/user.controller.js" />
       </list>
     </option>
   </component>
@@ -221,12 +222,12 @@
       <updated>1525721545924</updated>
       <workItem from="1525721551319" duration="1420000" />
       <workItem from="1525802483875" duration="2909000" />
-      <workItem from="1525997462020" duration="6512000" />
+      <workItem from="1525997462020" duration="7171000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13679000" />
+    <option name="totallyTimeSpent" value="14338000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="741" extended-state="0" />
@@ -560,24 +561,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/user.route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="30" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/user.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -611,8 +598,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/ajuda.route.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="90">
+          <caret line="6" column="56" lean-forward="true" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/user.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/user.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="44" column="2" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
         </state>
       </provider>
     </entry>
