@@ -23,7 +23,7 @@ exports.postAjuda = async function (req, res) {
     });
 };
 
-exports.getAjuda = function(req,res) {
+exports.getAjuda = async function(req,res) {
     Ajuda.findById(req.params.id,(err,us)=>{
         if(err){
             return res.status(400).json({message:"Ajuda não encontrada", status:400});
@@ -32,5 +32,15 @@ exports.getAjuda = function(req,res) {
         }
     })
 };
+
+exports.getAjudas = async function (req, res) {
+    Ajuda.find({}, (err, ajudas)=>{
+        if(err){
+            return res.status(400).json({message:"Nenhuma ajuda encontrada", status:400});
+        }else{
+            return res.status(200).json({message:"Ajudas encontradas com sucesso", status:200, data: ajudas})
+        }
+    })
+}
 
 
