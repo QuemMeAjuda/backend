@@ -6,14 +6,12 @@ const mongoose = require('mongoose');
 
 
 exports.postUser = async function (req, res) {
-    //req é o que recebe
-    //res é a resposta que daremos
-    let user = new User(req.body);//criando um novo user;
-    user.save((err, us)=>{//salvando no BD
-        if(err){//caso dê erro
-            return res.status(400).json({message:"Falha na operacao", status:400});//retornando uma msg de erro
-        }else{//caso dê certo
-            return res.status(201).json({message:"Aluno adicionado com sucesso", status:201, data: {name: us.name}});//retornado o objeto com alguns atributos só
+    let user = new User(req.body);
+    user.save((err, us)=>{
+        if(err){
+            return res.status(400).json({message:"Falha na operacao", status:400});
+        }else{
+            return res.status(201).json({message:"Aluno adicionado com sucesso", status:201, data: {name: us.name}});   
         }
     })
 };
