@@ -4,12 +4,14 @@ var ajudaSchema =  new mongoose.Schema({
 
     generalDescription:{
         type: String,
-        default: ''
+        default: '',
+        required: true
     },
 
     detailedDescription: {
         type: String,
-        default: ''
+        default: '',
+        required: true
     },
 
     tags:[{
