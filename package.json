@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "export NODE_ENV=dev && node ./bin/www"
+    "start": "export NODE_ENV=dev && node ./bin/www",
+    "test": "mocha"
   },
   "dependencies": {
     "bluebird": "^3.5.1",
@@ -17,7 +18,11 @@
     "jsonwebtoken": "^8.1.1",
     "mongoose": "^5.0.7",
     "morgan": "~1.9.0",
-    "nodemon": "^1.17.3",
+    "nodemon": "^1.17.4",
     "regex": "^0.1.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
   }
 }

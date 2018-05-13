@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ee51dca-425e-4b29-933d-27e7f546fce9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,83 +16,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dev.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/dev.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="43" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="error.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/error.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="www" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/www">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-              <folding />
+            <state relative-caret-position="-171">
+              <caret line="13" column="48" lean-forward="true" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -123,54 +53,28 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="27" />
     <option name="width" value="1920" />
     <option name="height" value="1053" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -179,11 +83,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -197,8 +101,21 @@
       </list>
     </option>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -211,34 +128,36 @@
       <option name="presentableId" value="Default" />
       <updated>1525721545924</updated>
       <workItem from="1525721551319" duration="1420000" />
+      <workItem from="1526226499283" duration="1831000" />
+      <workItem from="1526229146540" duration="5119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1420000" />
+    <option name="totallyTimeSpent" value="8370000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4983871" visible="true" weight="0.24963397" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="npm" order="2" sideWeight="0.5016129" side_tool="true" weight="0.24963397" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,72 +166,544 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/error.ejs">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="90">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/dev.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="43" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="15">
+          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/error.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="540">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/www">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="1260">
+          <caret line="84" column="30" lean-forward="true" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="90">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/dev.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="42" lean-forward="true" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/error.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/error.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="84" column="30" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram//home/luan/Downloads/COMPUTAÇÃO/ES/backend">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/cursor/AggregationCursor.js#Readable#48;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/cursor/AggregationCursor.js#eachAsync#80;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/cursor/AggregationCursor.js#util#137;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/cursor/AggregationCursor.js#utils#165;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/cursor/ChangeStream.js#EventEmitter#69;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/jsonwebtoken/lib/JsonWebTokenError.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/jsonwebtoken/lib/NotBeforeError.js#JsonWebTokenError#4;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/cursor/QueryCursor.js#Readable#48;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/cursor/QueryCursor.js#eachAsync#80;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/cursor/QueryCursor.js#helpers#137;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/cursor/QueryCursor.js#util#179;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/cursor/QueryCursor.js#utils#207;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/browser/ReadPreference.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/ReadPreference.js#mongodb#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/jsonwebtoken/lib/TokenExpiredError.js#JsonWebTokenError#4;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemon/lib/rules/add.js#utils#19;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/aggregate/aggregate.js#async#51;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/examples/aggregate/aggregate.js#mongoose#121;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/examples/aggregate/aggregate.js#person.js#155;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/aggregate.js#AggregationCursor#36;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/aggregate.js#Query#99;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/aggregate.js#util#131;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/aggregate.js#utils#159;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/any.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/express/connection-sharing/app.js#express#5;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/examples/express/connection-sharing/app.js#mongoose#39;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/examples/express/connection-sharing/app.js#routes#185;</node>
+            <node x="" y="">$PROJECT_DIR$/app.js#bluebird#143;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/app.js#bodyParser#66;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/app.js#config#209;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/app.js#cors#179;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/app.js#express#4;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/app.js#index#282;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/app.js#mongoose#107;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/app.js#path#38;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/application.js#Router#274;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/application.js#View#485;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/application.js#compileETag#557;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/application.js#compileQueryParser#614;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/application.js#compileTrust#672;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/application.js#debug#432;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/application.js#deprecate#709;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/application.js#finalhandler#230;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/application.js#flatten#753;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/application.js#http#515;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/application.js#merge#793;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/application.js#methods#308;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/application.js#middleware#342;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/application.js#query#389;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/application.js#resolve#839;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/application.js#setPrototypeOf#868;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/services/model/applyHooks.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/services/model/applyMethods.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/services/model/applyStatics.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/array-flatten/array-flatten.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/types/array.js#Document#87;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/types/array.js#EmbeddedDocument#39;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/types/array.js#ObjectId#128;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/types/array.js#cleanModifiedSubpaths#168;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/types/array.js#internalToObjectOptions#279;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/types/array.js#utils#332;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/array.js#$exists#37;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/array.js#$type#82;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/array.js#Array#4506;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/array.js#Embedded#1085;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/array.js#Mixed#430;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/array.js#SchemaType#123;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/array.js#Types#204;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/array.js#cast#462;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/array.js#castToNumber#602;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/array.js#geospatial#651;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/array.js#get#493;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/array.js#getDiscriminatorByValue#729;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/array.js#util#526;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/array.js#utils#554;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/async.js#Queue#134;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/async.js#schedule#96;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/async.js#util#166;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/async/dist/async.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/augment/lib/augment.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/tools/auth.js#Server#30;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/tools/auth.js#co#80;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/tools/auth.js#mongodb#106;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/browser/binary.js#Binary#47;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/binary.js#Binary#47;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/bind.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/operators/bitwise.js#CastError#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/bluebird.js#bluebird#195;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/boolean.js#SchemaType#71;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/boolean.js#utils#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/browser.js#browser.js#52;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/browser.js#DocumentProvider#30;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/browser.js#PromiseProvider#88;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/browser.js#index.js#697;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/browser.js#schematype.js#1995;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/browser.js#utils.js#2105;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/browser.js#virtualtype.js#1726;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/debug/src/browser.js#debug.js#130;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/browserDocument.js#EventEmitter#96;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/browserDocument.js#MongooseError#132;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/browserDocument.js#NodeJSDocument#37;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/browserDocument.js#ObjectId#206;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/browserDocument.js#Schema#172;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/browserDocument.js#applyHooks#303;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/browserDocument.js#utils#360;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/error/browserMissingSchema.js#MongooseError#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/types/buffer.js#Binary#46;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/types/buffer.js#utils#80;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/buffer.js#MongooseBuffer#131;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/buffer.js#SchemaType#180;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/buffer.js#document.js#1721;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/buffer.js#handleBitwiseOperator#37;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/buffer.js#utils#97;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemon/lib/utils/bus.js#debug#36;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/utils/bus.js#events#4;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/utils/bus.js#util#77;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/call_get.js#util#209;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/cancel.js#util#90;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/cast.js#StrictModeError#54;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/cast.js#Types#105;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/cast.js#get#146;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/cast.js#util#181;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/cast.js#utils#211;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/error/cast.js#MongooseError#37;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/error/cast.js#util#72;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/services/query/castUpdate.js#StrictModeError#19;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/services/query/castUpdate.js#ValidationError#72;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/services/query/castUpdate.js#utils#129;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/catch_filter.js#getKeys#99;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/catch_filter.js#util#59;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/services/document/cleanModifiedSubpaths.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemon/lib/utils/clone.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/collection.js#EventEmitter#69;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/collection.js#STATES#107;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/collection.js#utils#152;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js#Collection#104;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js#MongooseCollection#37;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js#inspect#6943;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js#utils#139;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemon/lib/utils/colour.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemon/lib/config/command.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/services/common.js#ObjectId#52;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/services/common.js#flatten#127;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/services/common.js#modifiedPaths#154;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/services/common.js#utils#97;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/services/document/compile.js#compile#86;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/services/document/compile.js#defineKey#113;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/services/document/compile.js#document.js#249;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/services/document/compile.js#utils#33;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/config/lib/config.js#COFFEE_DEP#29274;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/config/lib/config.js#CSON_DEP#33295;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/config/lib/config.js#DeferredConfig#551;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/config/lib/config.js#FileSystem#693;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/config/lib/config.js#HJSON_DEP#33030;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/config/lib/config.js#ICED_DEP#29631;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/config/lib/config.js#JSON5_DEP#32745;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/config/lib/config.js#JS_YAML_DEP#31618;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/config/lib/config.js#OS#21510;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/config/lib/config.js#PPARSER_DEP#33629;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/config/lib/config.js#Path#665;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/config/lib/config.js#RawConfig#603;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/config/lib/config.js#TOML_DEP#33163;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/config/lib/config.js#Utils#636;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/config/lib/config.js#XML_DEP#33817;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/config/lib/config.js#YAML_DEP#31785;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/config/lib/config.js#default#28623;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/config/lib/config.js#deferConfig#497;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/config/lib/config.js#fullFilename#28204;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/config/lib/config.js#register#28316;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/connection.js#Collection#222;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/connection.js#EventEmitter#69;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/connection.js#MongooseError#319;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/connection.js#PromiseProvider#361;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/connection.js#STATES#274;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/connection.js#Schema#186;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/connection.js#mongodb#416;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/connection.js#parser#487;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/connection.js#utils#452;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js#MongooseConnection#37;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js#STATES#91;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/connectionstate.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/context.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/date.js#MongooseError#37;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/date.js#SchemaType#112;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/date.js#utils#78;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/debug/src/debug.js#index.js#354;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/debuggability.js#Warning#138;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/debuggability.js#util#171;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/types/decimal128.js#Decimal128#149;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/decimal128.js#Decimal128Type#144;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/decimal128.js#SchemaType#63;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/decimal128.js#document.js#1564;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/decimal128.js#utils#197;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/browser/decimal128.js#Decimal128#36;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/decimal128.js#Decimal128#36;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/jsonwebtoken/decode.js#jws#4;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemon/lib/config/defaults.js#ignoreRoot#17;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/config/defer.js#DeferredConfig#491;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/config/defer.js#deferConfig#449;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/direct_resolve.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/error/disconnected.js#MongooseError#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/services/model/discriminator.js#defineKey#31;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/services/model/discriminator.js#utils#77;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/error/divergentArray.js#MongooseError#38;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/doc-methods.js#mongoose#5;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/document.js#EventEmitter#67;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/document.js#InternalCache#918;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/document.js#MixedSchema#143;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/document.js#MongooseError#103;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/document.js#ObjectExpectedError#222;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/document.js#ObjectParameterError#283;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/document.js#Schema#188;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/document.js#StrictModeError#346;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/document.js#ValidatorError#412;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/document.js#VirtualType#456;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/document.js#array.js#25042;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/document.js#cleanModifiedSubpaths#961;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/document.js#compile#1053;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/document.js#defineKey#1150;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/document.js#documentarray.js#48046;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/document.js#embedded.js#24738;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/document.js#flatten#1266;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/document.js#idGetter#1338;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/document.js#inspect#760;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/document.js#internalToObjectOptions#815;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/document.js#isDefiningProjection#557;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/document.js#isExclusive#639;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/document.js#mpath#1308;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/document.js#utils#500;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/document_provider.js#BrowserDocument#118;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/document_provider.js#Document#77;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/types/documentarray.js#Document#304;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/types/documentarray.js#MongooseArray#54;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/types/documentarray.js#ObjectId#96;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/types/documentarray.js#ObjectIdSchema#136;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/types/documentarray.js#getDiscriminatorByValue#371;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/types/documentarray.js#internalToObjectOptions#216;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/types/documentarray.js#utils#269;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/documentarray.js#ArrayType#63;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/documentarray.js#CastError#99;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/documentarray.js#EventEmitter#156;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/documentarray.js#SchemaType#192;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/documentarray.js#discriminator#235;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/documentarray.js#documentarray.js#3336;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/documentarray.js#embedded.js#1643;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/documentarray.js#getDiscriminatorByValue#386;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/documentarray.js#util#299;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/documentarray.js#utils#327;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/each.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/async/each.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/services/cursor/eachAsync.js#async#52;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/services/cursor/eachAsync.js#utils#82;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/ejs/ejs.js#_VERSION_STRING#2293;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/ejs/ejs.js#_process#35956;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/ejs/ejs.js#fs#2159;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/ejs/ejs.js#path#2183;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/ejs/ejs.js#utils#2211;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/ejs/lib/ejs.js#_VERSION_STRING#1427;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/ejs/lib/ejs.js#fs#1293;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/ejs/lib/ejs.js#path#1317;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/ejs/lib/ejs.js#utils#1345;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/ejs/ejs.min.js#_VERSION_STRING#997;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/ejs/ejs.min.js#_process#16917;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/ejs/ejs.min.js#fs#878;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/ejs/ejs.min.js#path#899;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/ejs/ejs.min.js#utils#924;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/types/embedded.js#Document#71;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/types/embedded.js#EventEmitter#138;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/types/embedded.js#internalToObjectOptions#202;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/types/embedded.js#utils#255;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/embedded.js#$exists#54;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/embedded.js#EventEmitter#116;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/embedded.js#SchemaType#154;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/embedded.js#castToNumber#214;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/embedded.js#discriminator#265;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/embedded.js#geospatial#331;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/embedded.js#getDiscriminatorByValue#488;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/embedded.js#internalToObjectOptions#411;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/embedded.js#subdocument.js#1172;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/errors.js#AggregateError#3650;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/errors.js#RangeError#3474;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/errors.js#TypeError#3447;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/errors.js#Warning#3697;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/errors.js#es5#18;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/errors.js#util#77;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/es5.js#keys#259;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemon/lib/config/exec.js#fs#36;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/config/exec.js#path#6;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/config/exec.js#utils#96;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/operators/exists.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/express.js#EventEmitter#273;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/express.js#Route#389;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/express.js#Router#428;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/express.js#bodyParser#218;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/express.js#index.js#1584;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/express.js#mixin#309;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/express.js#proto#351;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/express.js#query.js#1536;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/express.js#req#462;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/express.js#res#494;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/filter.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/finally.js#catchFilter#200;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/finally.js#util#89;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/generators.js#errors#248;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/generators.js#util#316;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/geospatial/geoJSONSchema.js#mongoose#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/geospatial/geoJSONexample.js#async#50;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/examples/geospatial/geoJSONexample.js#geoJSONSchema.js#154;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/examples/geospatial/geoJSONexample.js#mongoose#120;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/geospatial/geospatial.js#async#50;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/examples/geospatial/geospatial.js#mongoose#120;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/examples/geospatial/geospatial.js#person.js#154;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/operators/geospatial.js#SchemaArray#323;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/operators/geospatial.js#castArraysOfNumbers#59;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/operators/geospatial.js#castToNumber#120;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/services/populate/getSchemaTypes.js#Mixed#38;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/services/populate/getSchemaTypes.js#mpath#81;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/globalschemas/gs_example.js#mongoose#4;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/examples/globalschemas/gs_example.js#person.js#118;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/services/query/hasDollarKeys.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/operators/helpers.js#Types#52;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/operators/helpers.js#castArraysOfNumbers#154;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/operators/helpers.js#castToNumber#117;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/plugins/idGetter.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/xtend/immutable.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/node_modules/setprototypeof/index.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/raw-body/index.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/iconv-lite/lib/index.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/ms/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fresh/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/basic-auth/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/schema/storing-schemas-as-json/index.js#mongoose#16;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/examples/schema/storing-schemas-as-json/index.js#raw#101;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/index.js#express.js#198;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/qs/lib/index.js</node>
+            <node x="" y="">directories;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/merge-descriptors/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/content-type/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/router/index.js#Layer#262;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/router/index.js#Route#230;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/router/index.js#debug#364;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/router/index.js#deprecate#412;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/router/index.js#flatten#456;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/router/index.js#methods#294;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/router/index.js#mixin#328;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/router/index.js#parseUrl#496;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/router/index.js#setPrototypeOf#532;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/parseurl/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/finalhandler/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/jsonwebtoken/index.js#JsonWebTokenError.js#129;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/jsonwebtoken/index.js#NotBeforeError.js#183;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/jsonwebtoken/index.js#TokenExpiredError.js#237;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/jsonwebtoken/index.js#decode.js#29;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/jsonwebtoken/index.js#sign.js#89;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/jsonwebtoken/index.js#verify.js#60;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/content-disposition/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/jsonwebtoken/node_modules/ms/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/methods/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/jws/index.js</node>
+            <node x="" y="">Binary;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/index.js#Collection#15531;Decimal128;ObjectId;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lodash.isplainobject/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lodash.get/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose-legacy-pluralize/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/statuses/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/range-parser/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/on-headers/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/regexp-clone/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemon/lib/index.js#nodemon.js#17;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/proxy-addr/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemon/lib/cli/index.js#parse#4;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemon/lib/help/index.js#fs#4;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/help/index.js#path#28;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/help/index.js#supportsColor#58;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemon/lib/rules/index.js#add#51;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/rules/index.js#parse#79;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/rules/index.js#utils#18;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/serve-static/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/encodeurl/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemon/lib/utils/index.js#log.js#2200;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/utils/index.js#path#32;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/utils/index.js#semver#62;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/utils/index.js#utils#165;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemon/lib/config/index.js#command#383;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/config/index.js#debug#202;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/config/index.js#load#243;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/config/index.js#pinVersion#352;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/config/index.js#rules#273;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/config/index.js#rulesToMonitor#436;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/config/index.js#utils#306;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemon/lib/monitor/index.js#run.js#26;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/monitor/index.js#watch#53;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mpath/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/cookie-parser/index.js#cookie#190;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/cookie-parser/index.js#signature#222;</node>
+            <node x="" y="">$PROJECT_DIR$/routes/index.js#express#7;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/object-assign/index.js</node>
+            <node x="" y="">Binary;Decimal128;ObjectID;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/type-is/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/body-parser/index.js#deprecate#156;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/body-parser/index.js#json.js#2302;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/body-parser/index.js#raw.js#2373;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/body-parser/index.js#text.js#2444;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/body-parser/index.js#urlencoded.js#2522;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/cors/lib/index.js#assign#39;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/cors/lib/index.js#vary#80;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/depd/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/etag/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/cookie/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/path-to-regexp/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/chokidar/index.js</node>
+            <node x="" y="">mime;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/escape-html/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/vary/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/kareem/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/supports-color/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/http-errors/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/index.js#index.js#53;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/morgan/index.js#auth#411;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/morgan/index.js#debug#444;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/morgan/index.js#deprecate#483;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/morgan/index.js#onFinished#525;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/morgan/index.js#onHeaders#565;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lodash.once/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/index.js#Aggregate#685;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/index.js#Collection#15267;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/index.js#Connection#15193;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/index.js#Document#327;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/index.js#Model#293;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/index.js#PromiseProvider#727;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/index.js#Query#259;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/index.js#STATES#180;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/index.js#Schema#54;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/index.js#SchemaType#90;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/index.js#Types#225;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/index.js#VirtualType#134;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/index.js#cast.js#19165;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/index.js#document_provider.js#18623;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/index.js#index.js#18785;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/index.js#legacyPluralize#367;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/index.js#mquery.js#19541;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/index.js#pkg#463;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/index.js#removeSubdocs#504;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/index.js#saveSubdocs#562;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/index.js#shardingPlugin#782;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/index.js#utils#429;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/index.js#validateBeforeSave#616;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/error/index.js#DivergentArrayError#2636;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/error/index.js#DocumentNotFoundError#1144;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/error/index.js#OverwriteModelError#2251;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/error/index.js#VersionError#2003;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/error/index.js#cast.js#1352;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/error/index.js#divergentArray.js#2672;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/error/index.js#messages.js#770;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/error/index.js#missingSchema.js#2453;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/error/index.js#notFound.js#1182;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/error/index.js#overwriteModel.js#2287;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/error/index.js#validation.js#1532;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/error/index.js#validator.js#1713;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/error/index.js#version.js#2032;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/on-finished/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lodash.includes/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/pstree.remy/lib/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/types/index.js#Array#29;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/types/index.js#Buffer#65;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/types/index.js#Embedded#137;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/types/index.js#array.js#45;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/types/index.js#buffer.js#82;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/types/index.js#decimal128.js#253;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/types/index.js#documentarray.js#204;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/types/index.js#embedded.js#156;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/types/index.js#objectid.js#297;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/types/index.js#subdocument.js#343;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lodash.isnumber/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lodash.isstring/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/index.js#array.js#260;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/index.js#boolean.js#125;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/index.js#buffer.js#298;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/index.js#date.js#335;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/index.js#decimal128.js#474;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/index.js#documentarray.js#172;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/index.js#embedded.js#220;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/index.js#mixed.js#414;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/index.js#number.js#85;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/index.js#objectid.js#374;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/index.js#string.js#46;</node>
+            <node x="" y="">Buffer;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/browser/index.js#Binary#28;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/drivers/browser/index.js#Decimal128#66;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/drivers/browser/index.js#ObjectId#112;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/drivers/browser/index.js#ReadPreference#154;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/drivers/index.js#global.MONGOOSE_DRIVER_PATH#164;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/drivers/index.js#index.js#80;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/browser/index.js#ReadPreference.js#179;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/drivers/browser/index.js#binary.js#45;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/drivers/browser/index.js#decimal128.js#87;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/drivers/browser/index.js#objectid.js#131;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/index.js#ReadPreference.js#179;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/index.js#binary.js#45;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/index.js#decimal128.js#87;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/index.js#objectid.js#131;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bytes/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/update-notifier/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/sliced/index.js</node>
+            <node x="" y="">sign;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/accepts/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lodash.isboolean/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/utils-merge/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/debug/src/index.js#browser.js#186;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/debug/src/index.js#node.js#239;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lodash.isinteger/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/index.web.js#index.js#36;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/middleware/init.js#setPrototypeOf#230;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/debug/src/inspector-log.js#nullStream#70;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/internal.js#StateMachine#29;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/services/projection/isDefiningProjection.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/services/projection/isExclusive.js#isDefiningProjection#21;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/services/projection/isInclusive.js#isDefiningProjection#19;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/services/projection/isPathSelectedInclusive.js</node>
+            <node x="" y="">Parser;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/join.js#util#127;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/body-parser/lib/types/json.js#bytes#190;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/body-parser/lib/types/json.js#contentType#219;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/body-parser/lib/types/json.js#createError#261;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/body-parser/lib/types/json.js#debug#302;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/body-parser/lib/types/json.js#read#351;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/body-parser/lib/types/json.js#typeis#381;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/router/layer.js#debug#274;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/router/layer.js#pathRegexp#230;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/lean/lean.js#async#51;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/examples/lean/lean.js#mongoose#121;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/examples/lean/lean.js#person.js#155;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lex/lib/lexer.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemon/lib/config/load.js#debug#4;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/config/load.js#defaults#271;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/config/load.js#exec#241;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/config/load.js#fs#45;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/config/load.js#parse#202;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/config/load.js#path#69;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/config/load.js#rules#169;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/config/load.js#utils#136;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemon/lib/utils/log.js#bus#38;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/utils/log.js#colour#4;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/map.js#util#287;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/mapreduce/mapreduce.js#async#50;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/examples/mapreduce/mapreduce.js#mongoose#120;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/examples/mapreduce/mapreduce.js#person.js#154;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemon/lib/monitor/match.js#debug#102;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/monitor/match.js#fs#76;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/monitor/match.js#minimatch#6;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/monitor/match.js#path#46;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/monitor/match.js#rulesToMonitor#205;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/monitor/match.js#utils#151;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemon/lib/utils/merge.js#clone#4;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/error/messages.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/method.js#util#107;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/minimatch/minimatch.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/error/missingSchema.js#MongooseError#38;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/mixed.js#SchemaType#37;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/mixed.js#utils#80;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/model.js#Aggregate#52;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/model.js#ChangeStream#92;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/model.js#DivergentArrayError#275;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/model.js#Document#145;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/model.js#DocumentNotFoundError#207;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/model.js#Error#319;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/model.js#EventEmitter#366;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/model.js#OverwriteModelError#424;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/model.js#PromiseProvider#468;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/model.js#Query#521;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/model.js#Schema#553;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/model.js#VersionError#602;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/model.js#applyHooks#639;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/model.js#applyMethods#696;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/model.js#applyStatics#757;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/model.js#cast#818;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/model.js#castUpdate#848;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/model.js#discriminator#905;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/model.js#get#1213;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/model.js#getDiscriminatorByValue#994;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/model.js#getSchemaTypes#1246;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/model.js#internalToObjectOptions#1075;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/model.js#isPathSelectedInclusive#1125;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/model.js#model#73672;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/model.js#mpath#1314;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/model.js#parallel#1344;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/model.js#parallelLimit#1386;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/model.js#setDefaultsOnInsert#1438;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/model.js#utils#1507;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/express/connection-sharing/modelA.js#Schema#13;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mquery/lib/mquery.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/debug/node.js#node.js#17;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/debug/src/node.js#debug.js#214;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/debug/src/node.js#fs#4406;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/debug/src/node.js#net#4575;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/debug/src/node.js#tty#37;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/debug/src/node.js#util#63;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/nodeback.js#errors#94;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/nodeback.js#es5#176;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/nodeback.js#util#18;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/nodeify.js#util#55;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemon/lib/nodemon.js#cli#109;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/nodemon.js#config#284;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/nodemon.js#debug#4;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/nodemon.js#defaults#352;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/nodemon.js#help#254;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/nodemon.js#monitor#73;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/nodemon.js#path#45;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/nodemon.js#spawn#318;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/nodemon.js#util#173;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/nodemon.js#utils#201;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/nodemon.js#version#137;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemon/bin/nodemon.js#cli#27;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/bin/nodemon.js#fs#159;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/bin/nodemon.js#index.js#390;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/bin/nodemon.js#nodemon#62;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/error/notFound.js#MongooseError#52;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/error/notFound.js#util#87;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/number.js#MongooseError#178;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/number.js#SchemaType#37;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/number.js#document.js#4882;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/number.js#handleBitwiseOperator#118;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/number.js#utils#219;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/error/objectExpected.js#MongooseError#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/error/objectParameter.js#MongooseError#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/types/objectid.js#ObjectId#147;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/objectid.js#SchemaType#63;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/objectid.js#document.js#2346;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/objectid.js#oid#144;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/objectid.js#utils#184;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/browser/objectid.js#ObjectId#160;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/objectid.js#ObjectId#160;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/options.js#internalToObjectOptions#34;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/error/overwriteModel.js#MongooseError#38;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/ejs/package.json#version#1936;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/package.json#version#3766;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/async/parallel.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/async/parallelLimit.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemon/lib/cli/parse.js#fs#494;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/cli/parse.js#path#518;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemon/lib/rules/parse.js#fs#18;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/regex/lib/parse.js#parsexp#45;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/regex/lib/parse.js#reglex.js#97;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/regex/lib/parsexp.js#Parser#48;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/lean/person.js#mongoose#36;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/statics/person.js#mongoose#36;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/promises/person.js#mongoose#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/aggregate/person.js#mongoose#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/mapreduce/person.js#mongoose#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/geospatial/person.js#mongoose#36;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/replicasets/person.js#mongoose#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/querybuilder/person.js#mongoose#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/globalschemas/person.js#mongoose#36;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/population/population-across-three-collections.js#assert#5;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/examples/population/population-across-three-collections.js#dbname#217;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/examples/population/population-across-three-collections.js#mongoose#37;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/examples/population/population-across-three-collections.js#s#2391;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/population/population-basic.js#mongoose#5;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/population/population-of-existing-doc.js#mongoose#5;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/population/population-of-multiple-existing-docs.js#mongoose#5;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/population/population-options.js#mongoose#5;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/population/population-plain-objects.js#mongoose#5;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/promises/promise.js#async#50;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/examples/promises/promise.js#mongoose#120;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/examples/promises/promise.js#person.js#154;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/promise.js#Async#789;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#Context#1584;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#PassThroughHandlerContext#1789;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#PromiseArray#1437;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#any.js#24058;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#bind.js#22780;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#call_get.js#23241;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#cancel.js#22846;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#catchFilter#1890;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#debug#1690;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#direct_resolve.js#22911;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#each.js#24017;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#errors#901;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#es5#761;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#filter.js#23974;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#generators.js#23425;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#join.js#22995;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#map.js#23145;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#method.js#22694;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#nodebackForPromise#1948;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#nodeify.js#23525;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#promisify.js#23559;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#props.js#23605;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#race.js#23686;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#reduce.js#23762;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#settle.js#23861;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#some.js#23915;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#synchronous_inspection.js#22949;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#timers.js#23375;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#tryConvertToPromise#1368;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#using.js#23276;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promise.js#util#436;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/promise_array.js#util#115;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/promise_provider.js#assert#25;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/promise_provider.js#mquery#59;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/promisify.js#TypeError#290;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promisify.js#nodebackForPromise#110;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/promisify.js#util#80;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/props.js#es5#169;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/props.js#util#109;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/middleware/query.js#merge#218;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/middleware/query.js#parseUrl#253;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/middleware/query.js#qs#289;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/query.js#CastError#37;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/query.js#ObjectParameterError#78;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/query.js#QueryCursor#141;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/query.js#ReadPreference#209;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/query.js#cast#250;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/query.js#castUpdate#280;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/query.js#hasDollarKeys#337;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/query.js#helpers#400;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/query.js#isInclusive#441;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/query.js#mquery#505;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/query.js#selectPopulatedFields#537;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/query.js#setDefaultsOnInsert#616;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/query.js#slice#685;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/query.js#updateValidators#716;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/query.js#util#779;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/query.js#utils#807;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/querybuilder/querybuilder.js#async#51;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/examples/querybuilder/querybuilder.js#mongoose#121;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/examples/querybuilder/querybuilder.js#person.js#155;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/queryhelpers.js#createModel#1929;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/queryhelpers.js#get#37;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/queryhelpers.js#getDiscriminatorByValue#1611;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/queryhelpers.js#isDefiningProjection#70;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/queryhelpers.js#utils#152;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/queue.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/race.js#util#105;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/body-parser/lib/types/raw.js#bytes#144;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/body-parser/lib/types/raw.js#debug#173;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/body-parser/lib/types/raw.js#read#221;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/body-parser/lib/types/raw.js#typeis#251;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/config/raw.js#RawConfig#319;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/body-parser/lib/read.js#createError#156;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/body-parser/lib/read.js#getBody#197;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/body-parser/lib/read.js#iconv#231;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/body-parser/lib/read.js#onFinished#265;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/body-parser/lib/read.js#zlib#305;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/reduce.js#util#287;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/regex/lib/regex.js#StateMachine#45;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/regex/lib/regex.js#augment.js#126;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/regex/lib/regex.js#parse#94;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/regex/lib/reglex.js#Lexer#39;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/plugins/removeSubdocs.js#each#19;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/tools/repl.js#ReplSet#75;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/tools/repl.js#co#21;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/replicasets/replica-sets.js#async#51;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/examples/replicasets/replica-sets.js#mongoose#121;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/examples/replicasets/replica-sets.js#person.js#155;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/request.js#accepts#230;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/request.js#deprecate#264;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/request.js#fresh#401;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/request.js#http#373;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/request.js#isIP#315;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/request.js#parse#473;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/request.js#parseRange#431;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/request.js#proxyaddr#506;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/request.js#typeis#340;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/response.js#Buffer#203;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/response.js#contentDisposition#237;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/response.js#cookie#836;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/response.js#deprecate#294;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/response.js#encodeUrl#338;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/response.js#escapeHtml#376;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/response.js#http#417;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/response.js#isAbsolute#458;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/response.js#merge#597;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/response.js#normalizeType#694;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/response.js#normalizeTypes#749;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/response.js#onFinished#493;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/response.js#path#534;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/response.js#send#868;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/response.js#setCharset#801;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/response.js#sign#640;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/response.js#statuses#562;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/response.js#vary#974;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/router/route.js#Layer#324;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/router/route.js#debug#230;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/router/route.js#flatten#284;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/router/route.js#methods#356;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/express/connection-sharing/routes.js#model#5;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemon/lib/monitor/run.js#childProcess#140;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/monitor/run.js#config#315;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/monitor/run.js#debug#4;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/monitor/run.js#path#521;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/monitor/run.js#psTree#484;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/monitor/run.js#signals#549;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/monitor/run.js#statSync#58;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/monitor/run.js#utils#86;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/monitor/run.js#watch#285;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/plugins/saveSubdocs.js#each#19;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/schedule.js#util#18;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/schema/schema.js#mongoose#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema.js#EventEmitter#104;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema.js#Kareem#235;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema.js#SchemaType#267;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema.js#VirtualType#140;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema.js#index.js#47563;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema.js#mpath#309;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema.js#readPref#48;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema.js#utils#184;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/schema/storing-schemas-as-json/schema.json</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schematype.js#$exists#52;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schematype.js#$type#104;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schematype.js#MongooseError#184;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schematype.js#ValidatorError#31506;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schematype.js#utils#152;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/services/query/selectPopulatedFields.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/semver/semver.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/services/setDefaultsOnInsert.js#modifiedPaths#35;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/settle.js#util#131;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/tools/sharded.js#Sharded#75;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/tools/sharded.js#co#21;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/plugins/sharding.js#utils#19;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/jsonwebtoken/sign.js#includes#102;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/jsonwebtoken/sign.js#isBoolean#145;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/jsonwebtoken/sign.js#isInteger#190;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/jsonwebtoken/sign.js#isNumber#235;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/jsonwebtoken/sign.js#isPlainObject#278;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/jsonwebtoken/sign.js#isString#331;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/jsonwebtoken/sign.js#jws#76;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/jsonwebtoken/sign.js#once#374;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/jsonwebtoken/sign.js#timespan#4;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/jsonwebtoken/sign.js#xtend#46;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemon/lib/monitor/signals.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/some.js#AggregateError#179;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/some.js#RangeError#126;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/some.js#util#83;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemon/lib/spawn.js#spawn#98;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/spawn.js#utils#6;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/statemachine.js#utils#38;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/statemachines/lib/statemachines.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/static.js#createServer#91;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/static.js#static#6;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/examples/statics/statics.js#mongoose#4;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/examples/statics/statics.js#person.js#60;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/error/strict.js#MongooseError#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/string.js#MongooseError#118;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/string.js#SchemaType#37;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/string.js#document.js#11913;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/schema/string.js#utils#159;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/types/subdocument.js#Document#19;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/types/subdocument.js#internalToObjectOptions#84;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/types/subdocument.js#utils#135;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/synchronous_inspection.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/body-parser/lib/types/text.js#bytes#144;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/body-parser/lib/types/text.js#contentType#173;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/body-parser/lib/types/text.js#debug#215;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/body-parser/lib/types/text.js#read#264;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/body-parser/lib/types/text.js#typeis#294;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/thenables.js#util#65;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/timers.js#util#72;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/jsonwebtoken/lib/timespan.js#ms#4;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/schema/operators/type.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/undefsafe/lib/undefsafe.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/services/updateValidators.js#Mixed#54;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/services/updateValidators.js#ValidationError#96;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/services/updateValidators.js#flatten#162;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/services/updateValidators.js#modifiedPaths#213;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/services/updateValidators.js#parallel#254;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongodb/lib/url_parser.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/body-parser/lib/types/urlencoded.js#bytes#190;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/body-parser/lib/types/urlencoded.js#contentType#219;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/body-parser/lib/types/urlencoded.js#createError#261;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/body-parser/lib/types/urlencoded.js#debug#302;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/body-parser/lib/types/urlencoded.js#deprecate#357;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/body-parser/lib/types/urlencoded.js#index.js#4569;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/body-parser/lib/types/urlencoded.js#querystring#4631;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/body-parser/lib/types/urlencoded.js#read#404;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/body-parser/lib/types/urlencoded.js#typeis#434;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/using.js#TypeError#177;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/using.js#inherits#227;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/using.js#util#131;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/util.js#es5#18;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/bluebird/js/release/util.js#inherits#9222;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/utils.js#Buffer#207;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/utils.js#compileETag#3224;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/utils.js#compileQueryParser#3774;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/utils.js#compileTrust#4424;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/utils.js#contentDisposition#241;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/utils.js#contentType#298;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/utils.js#deprecate#341;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/utils.js#etag#458;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/utils.js#flatten#385;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/utils.js#isAbsolute#1086;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/utils.js#mime#432;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/utils.js#normalizeType#1693;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/utils.js#normalizeTypes#1971;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/utils.js#proxyaddr#486;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/utils.js#qs#525;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/utils.js#querystring#549;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/utils.js#setCharset#5021;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/ejs/lib/utils.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/utils.js#Array#9248;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/utils.js#Buffer#9313;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/utils.js#Decimal#54;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/utils.js#ObjectId#101;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/utils.js#PromiseProvider#147;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/utils.js#cloneRegExp#202;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/utils.js#document.js#7304;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/utils.js#mpath#281;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/utils.js#ms#313;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/utils.js#random#6175;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/lib/utils.js#sliced#247;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/plugins/validateBeforeSave.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/error/validation.js#MongooseError#38;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/error/validator.js#MongooseError#37;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/jsonwebtoken/verify.js#JsonWebTokenError#4;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/jsonwebtoken/verify.js#NotBeforeError#64;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/jsonwebtoken/verify.js#TokenExpiredError#121;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/jsonwebtoken/verify.js#decode#181;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/jsonwebtoken/verify.js#jws#277;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/jsonwebtoken/verify.js#timespan#226;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/jsonwebtoken/verify.js#xtend#317;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemon/lib/version.js#exec#116;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/version.js#fs#57;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/version.js#path#81;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/version.js#pin#26;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/error/version.js#MongooseError#52;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/view.js#debug#230;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/view.js#fn#1551;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/view.js#fs#304;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/express/lib/view.js#path#276;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/lib/virtualtype.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemon/lib/monitor/watch.js#chokidar#173;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/monitor/watch.js#config#247;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/monitor/watch.js#debug#81;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/monitor/watch.js#debugRoot#128;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/monitor/watch.js#fs#312;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/monitor/watch.js#match#390;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/monitor/watch.js#path#282;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/monitor/watch.js#undefsafe#209;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/monitor/watch.js#utils#336;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/nodemon/lib/monitor/watch.js#watch#0;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mongoose/website.js#acquit#2101;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/website.js#filemap#1124;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/website.js#fs#4;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/website.js#highlight#270;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/website.js#href#143;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/website.js#jade#28;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/website.js#klass#186;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/website.js#linktype#92;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/website.js#markdown#234;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/website.js#package#56;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/node_modules/mongoose/website.js#version#494;</node>
+            <node x="" y="">$PROJECT_DIR$/bin/www#app#58;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/bin/www#debug#87;/home/luan/Downloads/COMPUTAÇÃO/ES/backend/bin/www#http#130;</node>
+            <node x="" y="">/collection</node>
+            <node x="" y="">/connection</node>
+            <node x="" y="">COFFEE_DEP</node>
+            <node x="" y="">CSON_DEP</node>
+            <node x="" y="">HJSON_DEP</node>
+            <node x="" y="">ICED_DEP</node>
+            <node x="" y="">JSON5_DEP</node>
+            <node x="" y="">JS_YAML_DEP</node>
+            <node x="" y="">PPARSER_DEP</node>
+            <node x="" y="">TOML_DEP</node>
+            <node x="" y="">register;</node>
+            <node x="" y="">XML_DEP</node>
+            <node x="" y="">YAML_DEP</node>
+            <node x="" y="">_process</node>
+            <node x="" y="">acquit</node>
+            <node x="" y="">assert</node>
+            <node x="" y="">exec;spawn;</node>
+            <node x="" y="">co</node>
+            <node x="" y="">debug</node>
+            <node x="" y="">EventEmitter;</node>
+            <node x="" y="">statSync;</node>
+            <node x="" y="">default;</node>
+            <node x="" y="">global.MONGOOSE_DRIVER_PATH</node>
+            <node x="" y="">highlight.js</node>
+            <node x="" y="">href</node>
+            <node x="" y="">createServer;</node>
+            <node x="" y="">jade</node>
+            <node x="" y="">klass</node>
+            <node x="" y="">linktype</node>
+            <node x="" y="">marked</node>
+            <node x="" y="">__express;</node>
+            <node x="" y="">ReplSet;Server;Sharded;</node>
+            <node x="" y="">isIP;</node>
+            <node x="" y="">node-static</node>
+            <node x="" y="">os</node>
+            <node x="" y="">version;</node>
+            <node x="" y="">resolve;</node>
+            <node x="" y="">querystring</node>
+            <node x="" y="">source</node>
+            <node x="" y="">Readable;Writable;</node>
+            <node x="" y="">tty</node>
+            <node x="" y="">inspect;</node>
+            <node x="" y="">utils</node>
+            <node x="" y="">zlib</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.277270859021784" x="2016.2461384991632" y="3785.402840804839" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/ajuda.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/user.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/dev.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4485">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="13" column="48" lean-forward="true" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
         </state>
       </provider>
     </entry>
