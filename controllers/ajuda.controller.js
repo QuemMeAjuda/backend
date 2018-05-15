@@ -41,6 +41,37 @@ exports.getAjudas = async function (req, res) {
             return res.status(200).json({message:"Ajudas encontradas com sucesso", status:200, data: ajudas})
         }
     })
-}
+};
 
+exports.updateAjuda = async function (req, res) {
+    let ajudaID = req.body.ajudaID;
+    Ajuda.findById(ajudaID,(err, ajuda)=>{
+        if(err){
+            return res.status(400).json({message:"Nenhuma ajuda encontrada", status:400});
+        }else{
+            let novaAjuda = new Ajuda(req.body.ajuda);
+            ajuda.generalDescription = novaAjuda.generalDescription;
+            ajuda.detailedDescription = novaAjuda.detailedDescription;
+            ajuda.tags = novaAjuda.tags;
+            ajuda.close = novaAjuda.close;
+            return res.status(200).json({message:"Ajuda modificada com sucesso", status:200, data: ajuda});
+        }
+    })
+};
 
+exports.deleteAjuda = function (req, res) {
+    let removeAjudaID = req.body.ajudaID;
+    Ajuda.findByIdAndRemove(removeAjudaID, (err)=>{
+        if(err){
+            return res.status(400).json({message:"Nenhuma ajuda encontrada", status:400});
+        }else{
+            AlunoAjuda.find({"ajudaID":removeAjudaID}, function (err) {
+                if(err){
+                    return res.status(400).json({message:"Nenhuma ajuda encontrada", status:400});
+                }
+            }).remove().exec();
+
+            res.status(200).json({message:"Ajuda deletada com sucesso", status:200});
+        }
+    }).exec();
+};

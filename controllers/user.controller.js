@@ -25,7 +25,7 @@ exports.getUser = function (req, res) {
             if(user == null ){
                 res.status(404).json({message:" user não encontrado", status: 404});
             }else{
-                    res.status(200).json({message:"User encontrado",status:201,data:user});
+                res.status(200).json({message:"User encontrado",status:201,data:user});
             }
         }
 
@@ -62,7 +62,34 @@ exports.getAllUsers = function (req, res) {
         if(err){
             res.status(400).json({message:"Falha na operação", status:400});
         }else{
-            res.status(200).json({message:"users encontrados com sucesso",status:200,data:users});
+            res.status(200).json({message:"Usuários encontrados com sucesso",status:200,data:users});
         }
     })
+};
+
+exports.updateUser = function (req, res) {
+    let userID = req.body.userID;
+    User.findById(userID, (err, user)=>{
+        if(err) {
+            return res.status(400).json({message:"Usuário não encontrado", status: 404});
+        } else {
+            let novoUser = User(req.body.user);
+            user.name = novoUser.name;
+            user.university = novoUser.university;
+            user.save();
+            return res.status(200).json({message:"Usuário modificado com sucesso", status:200, data: {name: user.name}});
+        }
+    });
+};
+
+exports.deleteUser = function (req, res) {
+  let userID = req.body.userID;
+  User.findByIdAndRemove(userID, (err, user)=>{
+      if(err){
+          res.status(400).json({message:"Usuário não encontrado", status:404});
+      }else{
+          res.status(200).json({message:"Usuário deletado com sucesso", status:200});
+      }
+  }).exec();
+
 };
