@@ -4,6 +4,7 @@ const router = express.Router();
 
 router.get('/getUser/:id', userController.getUser);
 router.post('/postUser', userController.postUser);
+router.get('/getAll', userController.getAllUsers);
 router.get('/getAjudasByAluno/:id', userController.getAjudaByAluno);
 router.put('/updateUser', userController.updateUser);
 router.delete('/deleteUser', userController.deleteUser);

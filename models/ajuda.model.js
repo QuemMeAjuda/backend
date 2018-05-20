@@ -1,7 +1,10 @@
 var mongoose = require('mongoose');
 
 var ajudaSchema =  new mongoose.Schema({
-
+    author:{
+        type: String,
+        default: ''
+    },
     generalDescription:{
         type: String,
         default: '',

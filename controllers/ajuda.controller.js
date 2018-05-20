@@ -4,8 +4,9 @@ var AlunoAjuda = require('../models/AlunoAJuda');
 var User = require('../models/user.model');
 
 exports.postAjuda = async function (req, res) {
+    console.log(req.body.ajuda);
     let ajuda = new Ajuda(req.body.ajuda);
-    let user = User.findById(req.body.alunoID,(err, us)=>{
+    let user = User.find({uid: req.body.alunoID},(err, us)=>{
         if(err){
             return res.status(400).json({message:"Usuário não existe", status:400});
         }else{

@@ -1,4 +1,4 @@
 {
-  "db_name" : "127.0.0.1:27017",
+  "db_name" : "127.0.0.1:27017/meajuda",
   "JWT_SECRET_KEY": ""//depoisColoco
 }

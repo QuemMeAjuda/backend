@@ -7,6 +7,7 @@ const mongoose = require('mongoose');
 
 exports.postUser = async function (req, res) {
     let user = new User(req.body);
+    console.log(user);
     user.save((err, us)=>{
         if(err){
             return res.status(400).json({message:"Falha na operacao", status:400});
@@ -32,12 +33,23 @@ exports.getUser = function (req, res) {
     })
 };
 
+exports.getUserByUid = function(req, res){
+    User.find({uid:req.params.uid}, (err, user)=>{
+        if(err){
+            return res.status(400).json({message: "Falha na operação", status:400});
+        }else{
+            if(user == null){
+                return res.status(404).json({message:"Usuário não encontrado", status:404});
+            }else{
+                return res.status(200).json({message:"Usuário encontrado", status: 201, data: user});
+            }
+        }
+    })
+}
 exports.getAjudaByAluno = async function(req, res){
-
-    const aluId = mongoose.Types.ObjectId(req.params.id);
     let result = [];
     try {
-        const user = await User.findOne({_id: aluId});
+        const user = await User.findOne({uid: req.params.id});
         if (!user) {
             return res.status(400).json({message: "Usuário não encontrado", status: 404});
         } else {
@@ -53,6 +65,7 @@ exports.getAjudaByAluno = async function(req, res){
             });
         }
     } catch (e) {
+        console.log(e);
         return res.status(400).json({message:e, status: 400});
     }
 };
