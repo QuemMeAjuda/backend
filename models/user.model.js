@@ -11,6 +11,18 @@ var userSchema = new Mongoose.Schema({
     uid:{
         type: String,
         default: ''
+    },
+    university: {
+        type: String,
+        default: ''
+    },
+    graduation:{
+        type: String,
+        default: ''
+    },
+    email: {
+        type: String,
+        default: ''
     }
 });
 

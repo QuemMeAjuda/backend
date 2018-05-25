@@ -6,7 +6,6 @@ const mongoose = require('mongoose');
 
 
 exports.postUser = async function (req, res) {
-    console.log("postUser");
     let user = new User(req.body);
     console.log(user);
     user.save((err, us)=>{
