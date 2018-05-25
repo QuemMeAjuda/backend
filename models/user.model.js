@@ -20,11 +20,10 @@ var userSchema = new Mongoose.Schema({
         type:String,
         default:''
     }],
-    avaliacao: [{
+    avaliacao: {
         type: Number,
         default:''
-    }]
-
+    }
 });
 
 var User = Mongoose.model('User', userSchema);

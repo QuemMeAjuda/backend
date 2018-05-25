@@ -2,196 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ee51dca-425e-4b29-933d-27e7f546fce9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/ajuda.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/user.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/AlunoAJuda.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/ajuda.model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/user.model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/bin/postinstall.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-resolve/test/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-resolve/test/read.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-resolve/test/source-map-resolve.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/source-map-resolve/test/windows.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/ajuda.route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/user.route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ansi-align/node_modules/ansi-regex/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ansi-align/node_modules/ansi-regex/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ansi-align/node_modules/ansi-regex/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ansi-align/node_modules/ansi-regex/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ansi-align/node_modules/is-fullwidth-code-point/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ansi-align/node_modules/is-fullwidth-code-point/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ansi-align/node_modules/is-fullwidth-code-point/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ansi-align/node_modules/is-fullwidth-code-point/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ansi-align/node_modules/string-width/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ansi-align/node_modules/string-width/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ansi-align/node_modules/string-width/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ansi-align/node_modules/string-width/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ansi-align/node_modules/strip-ansi/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ansi-align/node_modules/strip-ansi/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ansi-align/node_modules/strip-ansi/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ansi-align/node_modules/strip-ansi/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/atob/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/atob/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/boxen/node_modules/ansi-regex/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/boxen/node_modules/ansi-regex/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/boxen/node_modules/ansi-regex/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ansi-regex/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/boxen/node_modules/ansi-regex/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/boxen/node_modules/is-fullwidth-code-point/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/boxen/node_modules/is-fullwidth-code-point/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/boxen/node_modules/is-fullwidth-code-point/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/boxen/node_modules/is-fullwidth-code-point/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/boxen/node_modules/string-width/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/boxen/node_modules/string-width/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/boxen/node_modules/string-width/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string-width/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/boxen/node_modules/string-width/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/boxen/node_modules/strip-ansi/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/boxen/node_modules/strip-ansi/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/boxen/node_modules/strip-ansi/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/strip-ansi/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/boxen/node_modules/strip-ansi/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chalk/index.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/chalk/index.js.flow" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chalk/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/chalk/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chalk/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/chalk/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/deep-extend/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/deep-extend/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/deep-extend/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/deep-extend/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/deep-extend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/deep-extend/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/deep-extend/lib/deep-extend.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/deep-extend/lib/deep-extend.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/deep-extend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/deep-extend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lru-cache/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lru-cache/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lru-cache/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lru-cache/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/make-dir/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/make-dir/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/make-dir/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/make-dir/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/.github/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/.github/no-response.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/.github/oliver.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/.github/stale.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/CODE_OF_CONDUCT.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/arch.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/events.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/option-parsing-logic.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/requireable.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/rules.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/sample-nodemon.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/faq.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/config/exec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/exec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/config/load.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/load.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/run.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/run.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/watch.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/watch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/nodemon.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/nodemon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/log.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/log.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/website/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/website/mixmax.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/website/nodemon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/website/nodemon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/website/sparkpost.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/website/sparkpost.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rc/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rc/node_modules/minimist/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rc/node_modules/minimist/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rc/node_modules/minimist/example/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/example/parse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rc/node_modules/minimist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rc/node_modules/minimist/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rc/node_modules/minimist/readme.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/readme.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rc/node_modules/minimist/test/all_bool.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/test/all_bool.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rc/node_modules/minimist/test/bool.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/test/bool.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rc/node_modules/minimist/test/dash.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/test/dash.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rc/node_modules/minimist/test/default_bool.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/test/default_bool.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rc/node_modules/minimist/test/dotted.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/test/dotted.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rc/node_modules/minimist/test/kv_short.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/test/kv_short.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rc/node_modules/minimist/test/long.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/test/long.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rc/node_modules/minimist/test/num.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/test/num.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rc/node_modules/minimist/test/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/test/parse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rc/node_modules/minimist/test/parse_modified.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/test/parse_modified.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rc/node_modules/minimist/test/short.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/test/short.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rc/node_modules/minimist/test/stop_early.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/test/stop_early.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rc/node_modules/minimist/test/unknown.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/test/unknown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rc/node_modules/minimist/test/whitespace.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/test/whitespace.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rc/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/isarray/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/isarray/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/isarray/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/isarray/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/isarray/component.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/isarray/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/isarray/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/isarray/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readable-stream/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readable-stream/CONTRIBUTING.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/GOVERNANCE.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readable-stream/GOVERNANCE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readable-stream/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readable-stream/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/duplex-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readable-stream/duplex-browser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/duplex.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readable-stream/duplex.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/lib/_stream_duplex.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_duplex.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/lib/_stream_passthrough.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_passthrough.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/lib/_stream_readable.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_readable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/lib/_stream_transform.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_transform.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/lib/_stream_writable.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_writable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/lib/internal/streams/BufferList.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/internal/streams/BufferList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/lib/internal/streams/destroy.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/internal/streams/destroy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/lib/internal/streams/stream-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/internal/streams/stream-browser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/lib/internal/streams/stream.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/internal/streams/stream.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readable-stream/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/passthrough.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readable-stream/passthrough.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/readable-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readable-stream/readable-browser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/readable.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readable-stream/readable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/transform.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readable-stream/transform.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/writable-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readable-stream/writable-browser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/writable.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readable-stream/writable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/string_decoder/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string_decoder/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/string_decoder/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string_decoder/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/string_decoder/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string_decoder/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/string_decoder/lib/string_decoder.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string_decoder/lib/string_decoder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/node_modules/string_decoder/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string_decoder/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-resolve/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map-resolve/bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-resolve/changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map-resolve/changelog.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-resolve/component.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map-resolve/component.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-resolve/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map-resolve/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-resolve/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map-resolve/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-resolve/x-package.json5" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map-resolve/x-package.json5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/touch/node_modules/.bin/nopt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/nopt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/touch/node_modules/nopt/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nopt/.npmignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/touch/node_modules/nopt/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nopt/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/touch/node_modules/nopt/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nopt/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/touch/node_modules/nopt/bin/nopt.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nopt/bin/nopt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/touch/node_modules/nopt/examples/my-program.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nopt/examples/my-program.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/touch/node_modules/nopt/lib/nopt.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nopt/lib/nopt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/touch/node_modules/nopt/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nopt/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/unset-value/node_modules/isarray/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/isarray/.npmignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/unset-value/node_modules/isarray/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/isarray/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/unset-value/node_modules/isarray/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/isarray/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/unset-value/node_modules/isarray/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/isarray/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/unset-value/node_modules/isarray/component.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/isarray/component.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/unset-value/node_modules/isarray/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/isarray/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/unset-value/node_modules/isarray/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/isarray/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/unset-value/node_modules/isarray/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/isarray/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/upath/build/code/upath.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/upath/build/code/upath.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/upath/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/upath/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/upath/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/upath/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/widest-line/node_modules/ansi-regex/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ansi-regex/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/widest-line/node_modules/ansi-regex/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/strip-ansi/license" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/widest-line/node_modules/ansi-regex/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/widest-line/node_modules/ansi-regex/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ansi-regex/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/widest-line/node_modules/is-fullwidth-code-point/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/widest-line/node_modules/is-fullwidth-code-point/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/license" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/widest-line/node_modules/is-fullwidth-code-point/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/widest-line/node_modules/is-fullwidth-code-point/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/widest-line/node_modules/string-width/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string-width/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/widest-line/node_modules/string-width/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string-width/license" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/widest-line/node_modules/string-width/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/widest-line/node_modules/string-width/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string-width/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/widest-line/node_modules/strip-ansi/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/strip-ansi/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/widest-line/node_modules/strip-ansi/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ansi-regex/license" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/widest-line/node_modules/strip-ansi/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/widest-line/node_modules/strip-ansi/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/strip-ansi/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/user.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/user.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/user.route.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -205,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="user.controller.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user.controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/user.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="155" column="37" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="37" />
+            <state relative-caret-position="354">
+              <caret line="145" column="52" selection-start-line="145" selection-start-column="52" selection-end-line="145" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -217,17 +30,17 @@
       <file leaf-file-name="user.model.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/user.model.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="342">
+              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.route.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="user.route.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/user.route.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            <state relative-caret-position="252">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -264,9 +77,9 @@
         <option value="$PROJECT_DIR$/routes/ajuda.route.js" />
         <option value="$PROJECT_DIR$/controllers/ajuda.controller.js" />
         <option value="$PROJECT_DIR$/config/dev.json" />
-        <option value="$PROJECT_DIR$/routes/user.route.js" />
-        <option value="$PROJECT_DIR$/controllers/user.controller.js" />
         <option value="$PROJECT_DIR$/models/user.model.js" />
+        <option value="$PROJECT_DIR$/controllers/user.controller.js" />
+        <option value="$PROJECT_DIR$/routes/user.route.js" />
       </list>
     </option>
   </component>
@@ -376,7 +189,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56913000" />
+    <option name="totallyTimeSpent" value="58371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
@@ -744,24 +557,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/user.route.js">
+    <entry file="file://$PROJECT_DIR$/controllers/user.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        <state relative-caret-position="354">
+          <caret line="145" column="52" selection-start-line="145" selection-start-column="52" selection-end-line="145" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/user.model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="342">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/user.controller.js">
+    <entry file="file://$PROJECT_DIR$/routes/user.route.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="155" column="37" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="37" />
+        <state relative-caret-position="252">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
         </state>
       </provider>
     </entry>
