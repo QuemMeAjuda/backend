@@ -110,3 +110,71 @@ exports.deleteUser = function (req, res) {
   }).exec();
 
 };
+
+//////////////////////////////// CRUD DE TUTOR //////////////////////////////////////////////////////////////
+
+exports.postTutor = async function (req, res) {
+    User.findById(req.params.id, (err, user)=>{
+        if(err){
+            res.status(400).json({message:"Falha na operação", status:400});
+        }else{
+            if(user == null ){
+                res.status(404).json({message:" User não encontrado", status: 404});
+            }else{
+                user.isTutor = true;
+                user.save();
+                res.status(200).json({message:"User é tutor",status:201,data:user});
+            }
+        }
+    })
+};
+
+exports.getTutor = function (req, res) {
+    User.findById(req.params.id, (err, user)=>{
+        if(err){
+            res.status(400).json({message:"Falha na operação", status:400});
+        }else{
+            if(user == null ){
+                res.status(404).json({message:" User não encontrado", status: 404});
+            }else{
+                if(user.isTutor){
+                    res.status(200).json({message:"User é tutor",status:201,data:user});
+                }else{
+                    res.status(404).json({message:" User não é tutor", status: 404});
+                }
+            }
+        }
+    })
+};
+
+exports.updateAvaliacaoTutor = function (req, res) {
+    User.findById(req.params.id, (err, user)=>{
+        if(err){
+            res.status(400).json({message:"Falha na operação", status:400});
+        }else{
+            if(user == null ){
+                res.status(404).json({message:" User não encontrado", status: 404});
+            }else{
+                user.avaliacao = req.body.avaliacao;
+                user.save();
+                res.status(200).json({message:"Avaliacao modificada com sucesso!",status:201,data:user});
+            }
+        }
+    })
+};
+
+exports.deleteTutor = function (req, res) {
+    User.findById(req.params.id, (err, user)=>{
+        if(err){
+            res.status(400).json({message:"Falha na operação", status:400});
+        }else{
+            if(user == null ){
+                res.status(404).json({message:" User não encontrado", status: 404});
+            }else{
+                user.isTutor = false;
+                user.save();
+                res.status(200).json({message:"User não é tutor",status:201,data:user});
+            }
+        }
+    })
+};

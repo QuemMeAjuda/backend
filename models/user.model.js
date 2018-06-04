@@ -12,8 +12,16 @@ var userSchema = new Mongoose.Schema({
         type: String,
         default: ''
     },
-    university: {
-        type: String,
+    isTutor:{
+        type: Boolean,
+        default: false
+    },
+    tutorias:[{
+        type:String,
+        default:''
+    }],
+    avaliacao: {
+        type: Number,
         default: ''
     },
     graduation:{
