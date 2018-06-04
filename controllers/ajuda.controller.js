@@ -4,9 +4,8 @@ var AlunoAjuda = require('../models/AlunoAJuda');
 var User = require('../models/user.model');
 
 exports.postAjuda = async function (req, res) {
-    console.log(req.body.ajuda);
     let ajuda = new Ajuda(req.body.ajuda);
-    let user = User.find({uid: req.body.alunoID},(err, us)=>{
+    let user = User.findOne({uid: req.body.alunoID},(err, us)=>{
         if(err){
             return res.status(400).json({message:"Usuário não existe", status:400});
         }else{
@@ -17,8 +16,8 @@ exports.postAjuda = async function (req, res) {
                     return res.status(201).json({message:"Ajuda cadastrada com sucesso", status:201, data: ajuda});
                 }
             })
-
-            let alunoAjuda = new AlunoAjuda({alunoID: req.body.alunoID, ajudaID: ajuda._id});
+            console.log(us);
+            let alunoAjuda = new AlunoAjuda({alunoID: us._id, ajudaID: ajuda._id});
             alunoAjuda.save((err, us)=>{});
         }
     });

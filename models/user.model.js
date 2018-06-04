@@ -22,7 +22,15 @@ var userSchema = new Mongoose.Schema({
     }],
     avaliacao: {
         type: Number,
-        default:''
+        default: ''
+    },
+    graduation:{
+        type: String,
+        default: ''
+    },
+    email: {
+        type: String,
+        default: ''
     }
 });
 

@@ -19,14 +19,15 @@ exports.postUser = async function (req, res) {
 
 
 exports.getUser = function (req, res) {
+    console.log("getUser");
     User.findById(req.params.id, (err, user)=>{//pesquisando o user no BD
         if(err){
-            res.status(400).json({message:"Falha na operação", status:400});
+            return res.status(400).json({message:"Falha na operação", status:400});
         }else{
             if(user == null ){
-                res.status(404).json({message:" user não encontrado", status: 404});
+                return res.status(404).json({message:" user não encontrado", status: 404});
             }else{
-                res.status(200).json({message:"User encontrado",status:201,data:user});
+                return res.status(200).json({message:"User encontrado",status:201,data:user});
             }
         }
 
@@ -49,10 +50,13 @@ exports.getUserByUid = function(req, res){
 exports.getAjudaByAluno = async function(req, res){
     let result = [];
     try {
+
         const user = await User.findOne({uid: req.params.id});
         if (!user) {
             return res.status(400).json({message: "Usuário não encontrado", status: 404});
         } else {
+            console.log('getajudas');
+            console.log(user);
             AlunoAjuda.find({alunoID: user._id}).then(function (ajudaAluno) {
                 let ajudas = ajudaAluno.map(ajudaAluno => ajudaAluno.ajudaID);
                 let promises = [];
