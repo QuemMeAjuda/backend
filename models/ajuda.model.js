@@ -1,7 +1,10 @@
 var mongoose = require('mongoose');
 
 var ajudaSchema =  new mongoose.Schema({
-
+    author:{
+        type: String,
+        default: ''
+    },
     generalDescription:{
         type: String,
         default: '',
@@ -17,7 +20,9 @@ var ajudaSchema =  new mongoose.Schema({
     tags:[{
        type:String,
     }],
-
+    awnsers:[{
+        default: []
+    }],
     //Caso a ajuda esteja fechada.
     closed:{
         type: Boolean,

@@ -7,6 +7,22 @@ var userSchema = new Mongoose.Schema({
     university:{
         type:String,
         default:''
+    },
+    uid:{
+        type: String,
+        default: ''
+    },
+    university: {
+        type: String,
+        default: ''
+    },
+    graduation:{
+        type: String,
+        default: ''
+    },
+    email: {
+        type: String,
+        default: ''
     }
 });
 

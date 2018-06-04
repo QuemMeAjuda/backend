@@ -7,6 +7,7 @@ const mongoose = require('mongoose');
 
 exports.postUser = async function (req, res) {
     let user = new User(req.body);
+    console.log(user);
     user.save((err, us)=>{
         if(err){
             return res.status(400).json({message:"Falha na operacao", status:400});
@@ -18,29 +19,44 @@ exports.postUser = async function (req, res) {
 
 
 exports.getUser = function (req, res) {
+    console.log("getUser");
     User.findById(req.params.id, (err, user)=>{//pesquisando o user no BD
         if(err){
-            res.status(400).json({message:"Falha na operação", status:400});
+            return res.status(400).json({message:"Falha na operação", status:400});
         }else{
             if(user == null ){
-                res.status(404).json({message:" user não encontrado", status: 404});
+                return res.status(404).json({message:" user não encontrado", status: 404});
             }else{
-                    res.status(200).json({message:"User encontrado",status:201,data:user});
+                return res.status(200).json({message:"User encontrado",status:201,data:user});
             }
         }
 
     })
 };
 
+exports.getUserByUid = function(req, res){
+    User.find({uid:req.params.uid}, (err, user)=>{
+        if(err){
+            return res.status(400).json({message: "Falha na operação", status:400});
+        }else{
+            if(user == null){
+                return res.status(404).json({message:"Usuário não encontrado", status:404});
+            }else{
+                return res.status(200).json({message:"Usuário encontrado", status: 201, data: user});
+            }
+        }
+    })
+}
 exports.getAjudaByAluno = async function(req, res){
-
-    const aluId = mongoose.Types.ObjectId(req.params.id);
     let result = [];
     try {
-        const user = await User.findOne({_id: aluId});
+
+        const user = await User.findOne({uid: req.params.id});
         if (!user) {
             return res.status(400).json({message: "Usuário não encontrado", status: 404});
         } else {
+            console.log('getajudas');
+            console.log(user);
             AlunoAjuda.find({alunoID: user._id}).then(function (ajudaAluno) {
                 let ajudas = ajudaAluno.map(ajudaAluno => ajudaAluno.ajudaID);
                 let promises = [];
@@ -53,6 +69,7 @@ exports.getAjudaByAluno = async function(req, res){
             });
         }
     } catch (e) {
+        console.log(e);
         return res.status(400).json({message:e, status: 400});
     }
 };
@@ -62,7 +79,34 @@ exports.getAllUsers = function (req, res) {
         if(err){
             res.status(400).json({message:"Falha na operação", status:400});
         }else{
-            res.status(200).json({message:"users encontrados com sucesso",status:200,data:users});
+            res.status(200).json({message:"Usuários encontrados com sucesso",status:200,data:users});
         }
     })
+};
+
+exports.updateUser = function (req, res) {
+    let userID = req.body.userID;
+    User.findById(userID, (err, user)=>{
+        if(err) {
+            return res.status(400).json({message:"Usuário não encontrado", status: 404});
+        } else {
+            let novoUser = User(req.body.user);
+            user.name = novoUser.name;
+            user.university = novoUser.university;
+            user.save();
+            return res.status(200).json({message:"Usuário modificado com sucesso", status:200, data: {name: user.name}});
+        }
+    });
+};
+
+exports.deleteUser = function (req, res) {
+  let userID = req.body.userID;
+  User.findByIdAndRemove(userID, (err, user)=>{
+      if(err){
+          res.status(400).json({message:"Usuário não encontrado", status:404});
+      }else{
+          res.status(200).json({message:"Usuário deletado com sucesso", status:200});
+      }
+  }).exec();
+
 };
