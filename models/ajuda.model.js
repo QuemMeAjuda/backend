@@ -1,21 +1,28 @@
 var mongoose = require('mongoose');
 
 var ajudaSchema =  new mongoose.Schema({
-
-    generalDescription:{
+    author:{
         type: String,
         default: ''
+    },
+    generalDescription:{
+        type: String,
+        default: '',
+        required: true
     },
 
     detailedDescription: {
         type: String,
-        default: ''
+        default: '',
+        required: true
     },
 
     tags:[{
        type:String,
     }],
-
+    awnsers:[{
+        default: []
+    }],
     //Caso a ajuda esteja fechada.
     closed:{
         type: Boolean,
