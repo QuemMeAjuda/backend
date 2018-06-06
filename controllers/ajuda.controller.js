@@ -38,7 +38,21 @@ exports.getAjudas = async function (req, res) {
         if(err){
             return res.status(400).json({message:"Nenhuma ajuda encontrada", status:400});
         }else{
-            return res.status(200).json({message:"Ajudas encontradas com sucesso", status:200, data: ajudas})
+            return res.status(200).json({message:"Ajudas encontradas com sucesso", status:200, data: ajudas});
+        }
+    })
+};
+
+exports.getAjudasByTen = async function(req, res){
+    let num = req.params.num;
+
+    Ajuda.find({},(err, ajudas)=>{
+        if(err){
+            return res.status(400).json({message:"Nenhuma ajuda encontrada", status:400});
+        }else{
+            let ajudasLength = num*10;
+            let result = ajudas.reverse().slice(ajudasLength-10, ajudasLength);
+            return res.status(200).json({message:"Ajudas encontradas com sucesso", status:200, data: result});
         }
     })
 };
