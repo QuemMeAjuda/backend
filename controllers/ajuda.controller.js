@@ -76,7 +76,6 @@ exports.deleteAjuda = function (req, res) {
     }).exec();
 };
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 exports.putComentAjuda = async function (req, res) {
     let userID = req.body.userID;
@@ -91,8 +90,9 @@ exports.putComentAjuda = async function (req, res) {
                     return res.status(400).json({message:"Usuário não encontrado", status: 404});
                 } else {
                     let nome = user.name;
-                    let saida = nome + "\n" + coment;
+                    let saida = nome + ": " + coment;
                     ajuda.coments.push(saida);
+                    ajuda.save();
                     return res.status(200).json({message:"Comentário adicionado com sucessso", status:200, data: ajuda});
                 }
             });

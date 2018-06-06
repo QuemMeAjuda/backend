@@ -29,10 +29,10 @@ var ajudaSchema =  new mongoose.Schema({
         default: false
     },
 
-    coments:{
+    coments:[{
         type: String,
         default:[]
-    }
+    }]
 
 });
 var Ajuda = mongoose.model('ajuda', ajudaSchema);
