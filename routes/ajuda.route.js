@@ -9,4 +9,7 @@ router.get('/getAjudas', ajudaController.getAjudas);
 router.put('/updateAjuda', ajudaController.updateAjuda);
 router.delete('/deleteAjuda', ajudaController.deleteAjuda);
 
+
+router.put('/putComentAjuda', ajudaController.putComentAjuda);
+
 module.exports = router;
