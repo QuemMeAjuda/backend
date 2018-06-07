@@ -80,7 +80,7 @@ exports.deleteAjuda = function (req, res) {
 exports.putComentAjuda = async function (req, res) {
     let userID = req.body.userID;
     let ajudaID = req.body.ajudaID;
-    let coment = req.body.coment;
+    let comment = req.body.comments;
     Ajuda.findById(ajudaID,(err, ajuda)=>{
         if(err){
             return res.status(400).json({message:"Nenhuma ajuda encontrada", status:400});
@@ -90,8 +90,8 @@ exports.putComentAjuda = async function (req, res) {
                     return res.status(400).json({message:"Usuário não encontrado", status: 404});
                 } else {
                     let nome = user.name;
-                    let saida = nome + ": " + coment;
-                    ajuda.coments.push(saida);
+                    let saida = nome + ": " + comment;
+                    ajuda.comments.push(saida);
                     ajuda.save();
                     return res.status(200).json({message:"Comentário adicionado com sucessso", status:200, data: ajuda});
                 }
