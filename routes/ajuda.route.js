@@ -7,7 +7,7 @@ router.post('/postAjuda', ajudaController.postAjuda);
 router.get('/getAjuda/:id' , ajudaController.getAjuda);
 router.get('/getAjudas', ajudaController.getAjudas);
 router.put('/updateAjuda', ajudaController.updateAjuda);
-router.post('/closeAjuda', ajudaController.updateAjuda);
+router.put('/closeAjuda', ajudaController.closeAjuda);
 router.delete('/deleteAjuda', ajudaController.deleteAjuda);
 
 module.exports = router;
