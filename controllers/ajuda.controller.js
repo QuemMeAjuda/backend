@@ -90,28 +90,12 @@ exports.putComentAjuda = async function (req, res) {
                     return res.status(400).json({message:"Usuário não encontrado", status: 404});
                 } else {
                     let nome = user.name;
-                    let saida = "("+ (ajuda.coments.length - 1) +") " + nome + ": " + coment;
+                    let saida = nome + ": " + coment;
                     ajuda.coments.push(saida);
                     ajuda.save();
                     return res.status(200).json({message:"Comentário adicionado com sucesso", status:200, data: ajuda});
                 }
             });
-        }
-    })
-};
-
-
-exports.deleteComentAjuda = async function (req, res) {
-    let ajudaID = req.body.ajudaID;
-    let index = req.body.indexComent;
-    Ajuda.findById(ajudaID,(err, ajuda)=>{
-        if(err){
-            return res.status(400).json({message:"Nenhuma ajuda encontrada", status:400});
-        } else {
-
-            // aqui deletar o comentario de indice determinado
-            console.log(index);
-            return res.status(200).json({message:"Comentário deletado com sucesso", status:200, data: ajuda});
         }
     })
 };

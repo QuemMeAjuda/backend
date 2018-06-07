@@ -11,6 +11,5 @@ router.delete('/deleteAjuda', ajudaController.deleteAjuda);
 
 
 router.put('/putComentAjuda', ajudaController.putComentAjuda);
-router.delete('/deleteComentAjuda', ajudaController.deleteComentAjuda);
 
 module.exports = router;
