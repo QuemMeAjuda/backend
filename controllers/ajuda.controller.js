@@ -76,3 +76,23 @@ exports.deleteAjuda = function (req, res) {
         }
     }).exec();
 };
+
+// exports.closeAjuda = async (req, res)=>{
+//     let { closeAjudaID, closed } = req.body;
+//
+//     try {
+//         const help = Ajuda.findById({closeAjudaID});
+//
+//         if (!help)
+//         return res.status(400).send({ error: 'Nenhuma ajuda encontrada'});
+//
+//         help.closed = closed;
+//         help.save();
+//
+//         return res.status(200).json({message:"Ajuda modificada com sucesso", status:200, data: ajuda});
+//
+//     } catch (err) {
+//         res.status(400).json({message:"ERROR", status:400});
+//     }
+//
+// };
