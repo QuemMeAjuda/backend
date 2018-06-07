@@ -77,7 +77,7 @@ exports.deleteAjuda = function (req, res) {
 };
 
 
-exports.putComentAjuda = async function (req, res) {
+exports.putCommentAjuda = async function (req, res) {
     let userID = req.body.userID;
     let ajudaID = req.body.ajudaID;
     let comment = req.body.comments;
@@ -96,6 +96,20 @@ exports.putComentAjuda = async function (req, res) {
                     return res.status(200).json({message:"Comentário adicionado com sucessso", status:200, data: ajuda});
                 }
             });
+        }
+    })
+};
+
+exports.deleteCommentAjuda = async function (req, res) {
+    let ajudaID = req.body.ajudaID;
+    let commentIndex = req.body.commentIndex;
+
+    Ajuda.findById(ajudaID, (err, ajuda)=>{
+        if(err){
+            return res.status(400).json({message:"Comentário não encontrado", status: 404});
+        }else{
+            ajuda.comments.splice(commentIndex, 1);
+            res.status(200).json({message:"Comentário deletado com sucesso", status:200});
         }
     })
 };

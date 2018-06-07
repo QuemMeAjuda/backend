@@ -10,6 +10,7 @@ router.put('/updateAjuda', ajudaController.updateAjuda);
 router.delete('/deleteAjuda', ajudaController.deleteAjuda);
 
 
-router.put('/putCommentAjuda', ajudaController.putComentAjuda);
+router.put('/putCommentAjuda', ajudaController.putCommentAjuda);
+router.delete('/deleteCommentAjuda', ajudaController.deleteCommentAjuda);
 
 module.exports = router;
