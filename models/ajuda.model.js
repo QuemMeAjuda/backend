@@ -29,7 +29,7 @@ var ajudaSchema =  new mongoose.Schema({
         default: false
     },
 
-    coments:[{
+    comments:[{
         type: String,
         default:[]
     }]
