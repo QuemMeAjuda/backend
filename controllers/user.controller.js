@@ -158,8 +158,16 @@ exports.updateAvaliacaoTutor = function (req, res) {
                 res.status(404).json({message:" User não encontrado", status: 404});
             }else{
                 user.avaliacoesTutor.push(avaliacao);
+
+                let sum = 0;
+                for (let i = 0; i < user.avaliacoesTutor.length; i++){
+                    sum += user.avaliacoesTutor[i];
+                }
+                let media = sum / user.avaliacoesTutor.length;
+                user.notaTutor = media;
+
                 user.save();
-                res.status(200).json({message:"User não é tutor",status:201,data:user});
+                res.status(200).json({message:"Avaliacao add, nota atualizada", data:user});
             }
         }
     })
@@ -174,14 +182,7 @@ exports.getNotaTutor = function (req, res) {
             if(user == null ){
                 res.status(404).json({message:" User não encontrado", status: 404});
             }else{
-                let sum = 0;
-                for (let i = 0; i < user.avaliacoesTutor.length; i++){
-                    sum += user.avaliacoesTutor[i];
-                }
-                let media = sum / user.avaliacoesTutor.length;
-                user.notaTutor = media;
-                user.save();
-                res.status(200).json({message:"User não é tutor",status:201,data:user});
+                res.status(200).json({message:"Nota do Tutor", data:user.notaTutor});
             }
         }
     })
