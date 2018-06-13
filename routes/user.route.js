@@ -15,4 +15,6 @@ router.post('/postTutor/:id', userController.postTutor);
 router.put('/updateAvaliacaoTutor', userController.updateAvaliacaoTutor);
 router.delete('/deleteTutor/:id', userController.deleteTutor);
 
+router.get('/getNotaTutor/:id',userController.getNotaTutor);
+
 module.exports = router;

@@ -20,10 +20,14 @@ var userSchema = new Mongoose.Schema({
         type:String,
         default:''
     }],
-    avaliacoes: [{
+    avaliacoesTutor: [{
         type: Number,
         default: []
     }],
+    notaTutor: {
+        type: Number,
+        default: 0
+    },
     graduation:{
         type: String,
         default: ''

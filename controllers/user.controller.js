@@ -157,7 +157,29 @@ exports.updateAvaliacaoTutor = function (req, res) {
             if(user == null ){
                 res.status(404).json({message:" User não encontrado", status: 404});
             }else{
-                user.avaliacoes.push(avaliacao);
+                user.avaliacoesTutor.push(avaliacao);
+                user.save();
+                res.status(200).json({message:"User não é tutor",status:201,data:user});
+            }
+        }
+    })
+};
+
+exports.getNotaTutor = function (req, res) {
+    let userID = req.params.id;
+    User.findById(userID, (err, user)=>{
+        if(err){
+            res.status(400).json({message:"Falha na operação", status:400});
+        }else{
+            if(user == null ){
+                res.status(404).json({message:" User não encontrado", status: 404});
+            }else{
+                let sum = 0;
+                for (let i = 0; i < user.avaliacoesTutor.length; i++){
+                    sum += user.avaliacoesTutor[i];
+                }
+                let media = sum / user.avaliacoesTutor.length;
+                user.notaTutor = media;
                 user.save();
                 res.status(200).json({message:"User não é tutor",status:201,data:user});
             }
