@@ -148,16 +148,18 @@ exports.getTutor = function (req, res) {
 };
 
 exports.updateAvaliacaoTutor = function (req, res) {
-    User.findById(req.params.id, (err, user)=>{
+    let userID = req.body.userID;
+    let avaliacao = req.body.avaliacao;
+    User.findById(userID, (err, user)=>{
         if(err){
             res.status(400).json({message:"Falha na operação", status:400});
         }else{
             if(user == null ){
                 res.status(404).json({message:" User não encontrado", status: 404});
             }else{
-                user.avaliacao = req.body.avaliacao;
+                user.avaliacoes.push(avaliacao);
                 user.save();
-                res.status(200).json({message:"Avaliacao modificada com sucesso!",status:201,data:user});
+                res.status(200).json({message:"User não é tutor",status:201,data:user});
             }
         }
     })
