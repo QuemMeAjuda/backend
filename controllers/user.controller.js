@@ -188,6 +188,48 @@ exports.getNotaTutor = function (req, res) {
     })
 };
 
+
+exports.updateAvaliacaoUser = function (req, res) {
+    let userID = req.body.userID;
+    let avaliacao = req.body.avaliacao;
+    User.findById(userID, (err, user)=>{
+        if(err){
+            res.status(400).json({message:"Falha na operação", status:400});
+        }else{
+            if(user == null ){
+                res.status(404).json({message:" User não encontrado", status: 404});
+            }else{
+                user.avaliacoesUser.push(avaliacao);
+
+                let sum = 0;
+                for (let i = 0; i < user.avaliacoesUser.length; i++){
+                    sum += user.avaliacoesUser[i];
+                }
+                let media = sum / user.avaliacoesUser.length;
+                user.notaUser = media;
+
+                user.save();
+                res.status(200).json({message:"Avaliacao add, nota atualizada", data:user});
+            }
+        }
+    })
+};
+
+exports.getNotaUser = function (req, res) {
+    let userID = req.params.id;
+    User.findById(userID, (err, user)=>{
+        if(err){
+            res.status(400).json({message:"Falha na operação", status:400});
+        }else{
+            if(user == null ){
+                res.status(404).json({message:" User não encontrado", status: 404});
+            }else{
+                res.status(200).json({message:"Nota do User", data:user.notaUser});
+            }
+        }
+    })
+};
+
 exports.deleteTutor = function (req, res) {
     User.findById(req.params.id, (err, user)=>{
         if(err){

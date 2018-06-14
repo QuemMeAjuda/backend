@@ -17,4 +17,7 @@ router.delete('/deleteTutor/:id', userController.deleteTutor);
 
 router.get('/getNotaTutor/:id',userController.getNotaTutor);
 
+router.put('/updateAvaliacaoUser', userController.updateAvaliacaoUser);
+router.get('/getNotaUser/:id',userController.getNotaUser);
+
 module.exports = router;

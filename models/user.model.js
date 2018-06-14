@@ -28,6 +28,14 @@ var userSchema = new Mongoose.Schema({
         type: Number,
         default: 0
     },
+    avaliacoesUser: [{
+        type: Number,
+        default: []
+    }],
+    notaUser: {
+        type: Number,
+        default: 0
+    },
     graduation:{
         type: String,
         default: ''
