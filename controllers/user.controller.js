@@ -167,7 +167,7 @@ exports.updateAvaliacaoTutor = function (req, res) {
                 user.notaTutor = media;
 
                 user.save();
-                res.status(200).json({message:"Avaliacao add, nota atualizada", data:user});
+                res.status(200).json({message:"Avaliacao add, nota atualizada",status:201, data:user});
             }
         }
     })
@@ -182,7 +182,7 @@ exports.getNotaTutor = function (req, res) {
             if(user == null ){
                 res.status(404).json({message:" User não encontrado", status: 404});
             }else{
-                res.status(200).json({message:"Nota do Tutor", data:user.notaTutor});
+                res.status(200).json({message:"Nota do Tutor", status:201, data:user.notaTutor});
             }
         }
     })
