@@ -67,7 +67,8 @@ exports.updateAjuda = async function (req, res) {
             ajuda.generalDescription = novaAjuda.generalDescription;
             ajuda.detailedDescription = novaAjuda.detailedDescription;
             ajuda.tags = novaAjuda.tags;
-            ajuda.close = novaAjuda.close;
+            ajuda.closed = novaAjuda.closed;
+            ajuda.save();
             return res.status(200).json({message:"Ajuda modificada com sucesso", status:200, data: ajuda});
         }
     })
@@ -127,4 +128,17 @@ exports.deleteCommentAjuda = async function (req, res) {
             res.status(200).json({message:"Comentário deletado com sucesso", status:200});
         }
     })
+};
+exports.closeAjuda = async (req, res)=>{
+    let ajudaID = req.body.ajudaID;
+    Ajuda.findById(ajudaID,(err, ajuda)=>{
+        if(err){
+            return res.status(400).json({message:"Nenhuma ajuda encontrada", status:400});
+        }else{
+            ajuda.closed = req.body.closed;
+            ajuda.save();
+            return res.status(200).json({message:"Ajuda modificada com sucesso", status:200, data: ajuda});
+        }
+    })
+
 };
