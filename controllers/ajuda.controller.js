@@ -109,6 +109,7 @@ exports.deleteCommentAjuda = async function (req, res) {
             return res.status(400).json({message:"Comentário não encontrado", status: 404});
         }else{
             ajuda.comments.splice(commentIndex, 1);
+            ajuda.save();
             res.status(200).json({message:"Comentário deletado com sucesso", status:200});
         }
     })
