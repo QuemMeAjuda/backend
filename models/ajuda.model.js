@@ -27,7 +27,12 @@ var ajudaSchema =  new mongoose.Schema({
     closed:{
         type: Boolean,
         default: false
-    }
+    },
+
+    comments:[{
+        type: String,
+        default:[]
+    }]
 
 });
 var Ajuda = mongoose.model('ajuda', ajudaSchema);
