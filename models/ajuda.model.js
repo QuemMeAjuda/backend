@@ -20,7 +20,7 @@ var ajudaSchema =  new mongoose.Schema({
     tags:[{
        type:String,
     }],
-    awnsers:[{
+    answers:[{
         default: []
     }],
     //Caso a ajuda esteja fechada.

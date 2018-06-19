@@ -67,6 +67,7 @@ exports.updateAjuda = async function (req, res) {
             ajuda.generalDescription = novaAjuda.generalDescription;
             ajuda.detailedDescription = novaAjuda.detailedDescription;
             ajuda.tags = novaAjuda.tags;
+            ajuda.answers = novaAjuda.answers;
             ajuda.closed = novaAjuda.closed;
             ajuda.save();
             return res.status(200).json({message:"Ajuda modificada com sucesso", status:200, data: ajuda});
