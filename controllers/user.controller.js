@@ -203,3 +203,7 @@ exports.deleteTutor = function (req, res) {
         }
     })
 };
+
+exports.getTop10 = function () {
+
+}
