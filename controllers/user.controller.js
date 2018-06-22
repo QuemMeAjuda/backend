@@ -204,6 +204,14 @@ exports.deleteTutor = function (req, res) {
     })
 };
 
-exports.getTop10 = function () {
+exports.getTopTutors = function (req, res) {
 
-}
+    User.find({ isTutor: true }, (err, users)=>{
+        if(err){
+            res.status(400).json({message:"Falha na operação", status:400});
+        }else{
+
+            res.status(200).json({message:"Usuários encontrados com sucesso",status:200,data:users});
+        }
+    }).sort({notaTutor: -1});
+};
