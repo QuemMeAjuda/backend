@@ -155,7 +155,7 @@ exports.updateAvaliacaoTutor = function (req, res) {
             if(user == null ){
                 res.status(404).json({message:" User não encontrado", status: 404});
             }else{
-                user.avaliacao = req.body.avaliacao;
+                user.tutorEvaluation = req.body.tutorEvaluation;
                 user.save();
                 res.status(200).json({message:"Avaliacao modificada com sucesso!",status:201,data:user});
             }

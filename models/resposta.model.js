@@ -8,9 +8,9 @@ var respostaSchema = new Mongoose.Schema({
         type: String,
         default: ''
     }
-}
+});
 
-var User = Mongoose.model('User', userSchema);
-module.exports = User;
+var Resposta = Mongoose.model('Resposta', respostaSchema);
+module.exports = Resposta;
 
 
