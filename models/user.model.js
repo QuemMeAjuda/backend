@@ -16,11 +16,15 @@ var userSchema = new Mongoose.Schema({
         type: Boolean,
         default: false
     },
-    tutorias:[{
+    skills:[{
         type:String,
         default:''
     }],
-    avaliacao: {
+    studentEvaluation: {
+        type: Number,
+        default: ''
+    },
+    tutorEvaluation: {
         type: Number,
         default: ''
     },
@@ -29,6 +33,10 @@ var userSchema = new Mongoose.Schema({
         default: ''
     },
     email: {
+        type: String,
+        default: ''
+    },
+    photoURL: {
         type: String,
         default: ''
     }

@@ -34,6 +34,20 @@ exports.getUser = function (req, res) {
     })
 };
 
+exports.getUserByEmail = function (req, res) {
+    User.find({email: req.params.email}, (err, user) => {
+        if(err) {
+            return res.status(400).json({message: "Falha na operação", status:400});
+        } else {
+            if(user == null){
+                return res.status(404).json({message:"Usuário não encontrado", status:404});
+            }else{
+                return res.status(200).json({message:"Usuário encontrado", status: 201, data: user});
+            }
+        }
+    });
+};
+
 exports.getUserByUid = function(req, res){
     User.find({uid:req.params.uid}, (err, user)=>{
         if(err){
@@ -155,7 +169,7 @@ exports.updateAvaliacaoTutor = function (req, res) {
             if(user == null ){
                 res.status(404).json({message:" User não encontrado", status: 404});
             }else{
-                user.avaliacao = req.body.avaliacao;
+                user.tutorEvaluation = req.body.tutorEvaluation;
                 user.save();
                 res.status(200).json({message:"Avaliacao modificada com sucesso!",status:201,data:user});
             }
