@@ -35,6 +35,10 @@ var userSchema = new Mongoose.Schema({
     email: {
         type: String,
         default: ''
+    },
+    photoURL: {
+        type: String,
+        default: ''
     }
 });
 
