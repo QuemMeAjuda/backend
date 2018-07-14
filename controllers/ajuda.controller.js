@@ -134,16 +134,15 @@ exports.deleteAnswer = async function (req, res, next) {
     })
 };
 
-exports.closeAjuda = async (req, res)=>{
-    let ajudaID = req.body.ajudaID;
+exports.closeAjuda = async function (req, res) {
+    let ajudaID = req.params.id;
     Ajuda.findById(ajudaID,(err, ajuda)=>{
         if(err){
             return res.status(400).json({message:"Nenhuma ajuda encontrada", status:400});
-        }else{
-            ajuda.closed = req.body.closed;
+        } else {
+            ajuda.closed = true;
             ajuda.save();
-            return res.status(200).json({message:"Ajuda modificada com sucesso", status:200, data: ajuda});
+            return res.status(200).json({message:"Ajuda fechada com sucessso", status:200, data: ajuda});
         }
     })
-
 };

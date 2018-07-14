@@ -7,7 +7,7 @@ router.post('/postAjuda', ajudaController.postAjuda);
 router.get('/getAjuda/:id' , ajudaController.getAjuda);
 router.get('/getAjudas', ajudaController.getAjudas);
 router.put('/updateAjuda', ajudaController.updateAjuda);
-router.put('/closeAjuda', ajudaController.closeAjuda);
+router.put('/closeAjuda/:id', ajudaController.closeAjuda);
 router.delete('/deleteAjuda/:id', ajudaController.deleteAjuda);
 router.get('/getAjudas/:num', ajudaController.getAjudasByTen);
 router.get('/getHelpsByUser/:authorID', ajudaController.getHelpsByUser);
