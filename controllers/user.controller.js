@@ -161,15 +161,17 @@ exports.getTutor = function (req, res) {
     })
 };
 
-exports.updateAvaliacaoTutor = function (req, res) {
-    User.findById(req.params.id, (err, user)=>{
+exports.updateAvaliacaoTutor = async function (req, res) {
+    let userID = req.params.id;
+    let evaluation = req.body;
+    User.findById(userID, (err, user)=>{
         if(err){
             res.status(400).json({message:"Falha na operação", status:400});
         }else{
             if(user == null ){
                 res.status(404).json({message:" User não encontrado", status: 404});
             }else{
-                user.tutorEvaluation = req.body.tutorEvaluation;
+                user.evaluation.push(evaluation);
                 user.save();
                 res.status(200).json({message:"Avaliacao modificada com sucesso!",status:201,data:user});
             }

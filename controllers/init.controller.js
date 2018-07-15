@@ -10,8 +10,7 @@ exports.mockSystem = async function (req, res) {
         let tiago = new User({
             name: 'Taigo Leonel',
             email: 'tiago.pereira@ccc.ufcg.edu.br',
-            tutorEvaluation: 4.91,
-            studentEvaluation: 2.4,
+            evaluation: [],
             photoURL: "https://lh6.googleusercontent.com/-Ju3JEKDDvO4/AAAAAAAAAAI/AAAAAAAAACE/UgSMzZrPrx8/photo.jpg"
         });
     
@@ -19,8 +18,18 @@ exports.mockSystem = async function (req, res) {
             name: 'Rusby',
             email: 'rubens.sousa@ccc.ufcg.edu.br',
             skills: ['EDA', 'LEDA'],
-            tutorEvaluation: 5.0,
-            studentEvaluation: 5.0
+            evaluation: [
+                {
+                    rating: 5.0,
+                    comment: 'muito, muito, muito bom a resposta',
+                    author: {
+                        name: tiago.name,
+                        photoURL: tiago.photoURL,
+                        email: tiago.email,
+                        authorID: tiago._id
+                    } 
+                }
+            ],
         });
     
         tiago.save((err, us) => {
@@ -33,8 +42,6 @@ exports.mockSystem = async function (req, res) {
                         name: tiago.name,
                         photoURL: tiago.photoURL,
                         email: tiago.email,
-                        tutorEvaluation: tiago.tutorEvaluation,
-                        studentEvaluation: tiago.studentEvaluation
                     },
                     detailedDescription: 'Como faço pra pegar o placar de um jogo, ex "3x1" independente de posicao, pois a posicao pode variar se o placar for 11x20',
                     answers: [
@@ -43,8 +50,6 @@ exports.mockSystem = async function (req, res) {
                                 name: rubens.name,
                                 photoURL: rubens.photoURL,
                                 email: rubens.email,
-                                tutorEvaluation: rubens.tutorEvaluation,
-                                studentEvaluation: rubens.studentEvaluation
                             },
                             answer: "What is the broder",
                             photoURL: null,
