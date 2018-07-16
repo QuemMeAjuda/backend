@@ -134,6 +134,22 @@ exports.deleteAnswer = async function (req, res, next) {
     })
 };
 
+exports.favoriteAnswer = async function (req, res, next) {
+    let ajudaID = req.params.id;
+    let answerIndex = req.body.index;
+    Ajuda.findById(ajudaID, (err, ajuda)=>{
+        if(err){
+            return res.status(400).json({message:"Comentário não encontrado", status: 404});
+        }else{
+            let answer = ajuda.answers[Number(answerIndex)];
+            ajuda.favoriteAnswer = answer;
+            ajuda.answers.splice(answerIndex, 1);
+            ajuda.save();
+            res.status(200).json({message:"Comentário deletado com sucesso", status:200});
+        }
+    })
+};
+
 exports.closeAjuda = async function (req, res) {
     let ajudaID = req.params.id;
     Ajuda.findById(ajudaID,(err, ajuda)=>{

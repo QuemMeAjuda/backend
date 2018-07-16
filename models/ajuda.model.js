@@ -31,6 +31,10 @@ var ajudaSchema =  new mongoose.Schema({
         type: Boolean,
         default: false
     },
+    favoriteAnswer:{
+        type: Object,
+        default: {}
+    },
 
     comments:[{
         type: String,

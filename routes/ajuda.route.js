@@ -14,5 +14,6 @@ router.get('/getHelpsByUser/:authorID', ajudaController.getHelpsByUser);
 
 router.put('/putAnswer/:id', ajudaController.putAnswer);
 router.delete('/deleteAnswer/:id', ajudaController.deleteAnswer);
+router.put('/favoriteAnswer/:id', ajudaController.favoriteAnswer);
 
 module.exports = router;
