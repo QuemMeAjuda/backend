@@ -20,9 +20,13 @@ exports.postAjuda = async function (req, res) {
 exports.getAjuda = async function(req,res) {
     Ajuda.findById(req.params.id,(err,us)=>{
         if(err){
-            return res.status(400).json({message:"Ajuda não encontrada", status:400});
+            return res.status(400).json({message:"Falha na operacao", status:400});
         }else{
-            return res.status(200).json({message:"Ajuda encontrada com sucesso", status:200, data: us});
+            if(us == null){
+                return res.status(404).json({message:"Ajuda nao encontrado", status:404});
+            }else{
+                return res.status(200).json({message:"Ajuda encontrada com sucesso", status:201, data: us});
+            }
         }
     })
 };
