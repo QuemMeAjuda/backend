@@ -20,9 +20,13 @@ exports.postAjuda = async function (req, res) {
 exports.getAjuda = async function(req,res) {
     Ajuda.findById(req.params.id,(err,us)=>{
         if(err){
-            return res.status(400).json({message:"Ajuda não encontrada", status:400});
+            return res.status(400).json({message:"Falha na operacao", status:400});
         }else{
-            return res.status(200).json({message:"Ajuda encontrada com sucesso", status:200, data: us});
+            if(us == null){
+                return res.status(404).json({message:"Ajuda nao encontrado", status:404});
+            }else{
+                return res.status(200).json({message:"Ajuda encontrada com sucesso", status:201, data: us});
+            }
         }
     })
 };
@@ -72,17 +76,14 @@ exports.getAjudasByTen = async function(req, res){
 };
 
 exports.updateAjuda = async function (req, res) {
-    let ajudaID = req.body.ajudaID;
+    let ajudaID = req.params.id;
     Ajuda.findById(ajudaID,(err, ajuda)=>{
         if(err){
             return res.status(400).json({message:"Nenhuma ajuda encontrada", status:400});
         }else{
-            let novaAjuda = new Ajuda(req.body.ajuda);
+            let novaAjuda = req.body;
             ajuda.generalDescription = novaAjuda.generalDescription;
             ajuda.detailedDescription = novaAjuda.detailedDescription;
-            ajuda.tags = novaAjuda.tags;
-            ajuda.answers = novaAjuda.answers;
-            ajuda.closed = novaAjuda.closed;
             ajuda.save();
             return res.status(200).json({message:"Ajuda modificada com sucesso", status:200, data: ajuda});
         }
