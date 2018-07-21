@@ -76,17 +76,14 @@ exports.getAjudasByTen = async function(req, res){
 };
 
 exports.updateAjuda = async function (req, res) {
-    let ajudaID = req.body.ajudaID;
+    let ajudaID = req.params.id;
     Ajuda.findById(ajudaID,(err, ajuda)=>{
         if(err){
             return res.status(400).json({message:"Nenhuma ajuda encontrada", status:400});
         }else{
-            let novaAjuda = new Ajuda(req.body.ajuda);
+            let novaAjuda = req.body;
             ajuda.generalDescription = novaAjuda.generalDescription;
             ajuda.detailedDescription = novaAjuda.detailedDescription;
-            ajuda.tags = novaAjuda.tags;
-            ajuda.answers = novaAjuda.answers;
-            ajuda.closed = novaAjuda.closed;
             ajuda.save();
             return res.status(200).json({message:"Ajuda modificada com sucesso", status:200, data: ajuda});
         }
