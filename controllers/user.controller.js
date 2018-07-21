@@ -3,6 +3,7 @@ var User = require('../models/user.model');
 const Ajuda = require('../models/ajuda.model');
 const AlunoAjuda = require('../models/AlunoAJuda');
 const mongoose = require('mongoose');
+var _ = require('lodash');
 
 
 exports.postUser = async function (req, res) {
@@ -31,6 +32,37 @@ exports.getUser = function (req, res) {
             }
         }
 
+    })
+};
+
+function getTopUsers(users) {
+    function getRate(user) {
+        let total = user && user.evaluation.reduce((a,b) => {
+            a+=b.rating;
+            return a;
+          },0);
+          let result = (total / (user && user.evaluation.length))
+          return result && result.toFixed(2) || 0;
+    }
+    let orderedUsers = users.sort(function compare(a, b) {
+        if (getRate(a) > getRate(b)) {
+            return 1;
+          }
+          if (getRate(a) < getRate(b)) {
+            return -1;
+          }
+          return 0;
+    });
+    return _.reverse(orderedUsers).slice(0, 10);
+};
+
+exports.getTopUsers = async function (req, res) {
+    User.find({},(err, users)=>{
+        if(err){
+            return res.status(400).json({message:"Nenhuma ajuda encontrada", status:400});
+        }else{
+            return res.status(200).json({message:"Usuarios encontrados com sucesso", status:200, data: getTopUsers(users)});
+        }
     })
 };
 
